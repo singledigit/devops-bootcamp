@@ -20,6 +20,8 @@ Use the following info to fill in the form.
 Leaving the rest of the fields to their default value, click *Next*
 ### Step 6: Options
 Leave all defaults and click *Next*
+### Step 7: Review
+Verify all your data and click *Cl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjgwOTExOCwtMTM4NTExOTE5XX0=
+eyJoaXN0b3J5IjpbMTM0NjA3ODIzNywtMTM4NTExOTE5XX0=
 -->
