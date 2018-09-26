@@ -16,6 +16,9 @@ From within the *Lab1* folder run the following command.
 ```
 aws cloudformation create-stack --stack-name Lab1Stack --template-body file://./template.json --parameters file://./template-params.json
 ```
+### Step 4: Check for Completion
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTA0NDkwMjIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMzIxOTg0ODQ4LC0xNzkwNDQ5MDIyLDczMD
+k5ODExNl19
 -->
