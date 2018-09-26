@@ -6,7 +6,8 @@ From the AWS Dashboard home page choose CloudFormation. You Can use the filter t
 In the top right corner, ensure that you are set to *Ireland*. If not, click the drop down and choose *Ireland*.
 ### Step 3: Click *Create Stack* Button
 In the top left corner choose *Create Stack*
-### Step 4: 
+### Step 4: Choose Correct Template
+On the next screen, on the Choose Template dropdown, choose LAMP Stack. Click *Next*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjk0MzMwOSwtMTM4NTExOTE5XX0=
+eyJoaXN0b3J5IjpbLTEyMjg1Njc2MjcsLTEzODUxMTkxOV19
 -->
