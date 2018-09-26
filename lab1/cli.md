@@ -11,7 +11,7 @@ Use the following info to fill in the form.
  - DBRootPassword: **LabOneRootPassword**
  - DBUser: **admin**
  - KeyName: **[use key created earlier]**
-
+### Step 3: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4NDk1Nzc2LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTIwMDg4NDgwMiw3MzA5OTgxMTZdfQ==
 -->
