@@ -25,9 +25,10 @@ Verify all your data and click *Create*
 ### Step 8: Waaaaiiiiiiiitttttt
 Patiently wait for you stack to be created.
 ### Step 9: Retrieve Website URL
-- Click checkbox next to stack name *Lab1Stack*
-- Click the 
+- Click checkbox next to the stack name, *Lab1Stack*
+- Click the *Outputs* tab
+- Copy or click on the *WebsiteUrl*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjAzNzE0NCwtMTQ4ODU2ODA1MywxNz
-kyMTcxNTg5LC0xMzg1MTE5MTldfQ==
+eyJoaXN0b3J5IjpbLTE4NjY4ODc0NzEsLTE0ODg1NjgwNTMsMT
+c5MjE3MTU4OSwtMTM4NTExOTE5XX0=
 -->
