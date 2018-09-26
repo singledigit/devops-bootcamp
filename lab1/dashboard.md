@@ -33,6 +33,10 @@ Patiently wait for you stack to be created.
 ### Step 10: Cleanup
 - Click checkbox next to the stack name, *Lab1Stack* to select it.
 - Click the *Actions* drop-down at the top and choose *Delete Stack*
+
+**After a few minutes, your stack, and all the provisioned resources will be deleted**
+
+##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc3OTk5OCwxNzc3MjEzNjM4XX0=
+eyJoaXN0b3J5IjpbLTYxMDc3NzAxOSwxNzc3MjEzNjM4XX0=
 -->
