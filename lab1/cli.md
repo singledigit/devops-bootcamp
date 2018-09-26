@@ -4,8 +4,7 @@ Open the terminal and change to the directory of the downloaded project.
 
     cd /path/to/project/root/lab1
 ### Step 2: View Params
-*template-params.json*
-
+Open *template-params.json* in you favorite editor. You can see I have already filled i all but the KeyPair
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzA0NjY3MSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMjU3ODc0NDI2LDczMDk5ODExNl19
 -->
