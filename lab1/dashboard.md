@@ -25,13 +25,14 @@ Verify all your data and click *Create*.
 ### Step 8: Waaaaiiiiiiiitttttt
 Patiently wait for you stack to be created.
 ### Step 9: Retrieve Website URL
-- Click checkbox next to the stack name, *Lab1Stack*.
+- Click checkbox next to the stack name, *Lab1Stack* to select it.
 - Click the *Outputs* tab.
 - Copy or click on the *WebsiteUrl* value.
 
 **Do you see the website?**
 ### Step 10: Cleanup
-Click checkbox next to the stack name, *Lab1Stack*
+- Click checkbox next to the stack name, *Lab1Stack* to select it.
+- Click the *Actions* drop-down at the top and choose *Delete Stack*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDM0OTI4MiwxNzc3MjEzNjM4XX0=
+eyJoaXN0b3J5IjpbLTE5NDc3OTk5OCwxNzc3MjEzNjM4XX0=
 -->
