@@ -13,7 +13,9 @@ Use the following info to fill in the form.
  - KeyName: **[use key created earlier]**
 ### Step 3: Create Stack
 From within the *Lab1* folder run the following command.
-	`enter code here`
+```
+aws cloudformation create-stack --stack-name Lab1Stack --template-body file://./template.json --parameters file://./template-params.json
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTA2ODc1MTcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE3OTA0NDkwMjIsNzMwOTk4MTE2XX0=
 -->
