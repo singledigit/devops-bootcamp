@@ -15,7 +15,10 @@ Use the following info to fill in the form.
  - DBPassword: **LabOnePassword**
  - DBRootPassword: **LabOneRootPassword**
  - DBUser: **admin**
- - KeyName: **[use key created earlier
+ - KeyName: **[use key created earlier]**
+
+Leaving the rest of the fields to their default value, click *Next*
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzM2NjU0LC0xMzg1MTE5MTldfQ==
+eyJoaXN0b3J5IjpbLTE4MjE3NzI3MDcsLTEzODUxMTkxOV19
 -->
