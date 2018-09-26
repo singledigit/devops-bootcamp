@@ -11,8 +11,9 @@ On the next screen, on the Choose Template dropdown, choose LAMP Stack. Click *N
 ### Step 5: Fill in Stack Information
 Use the following info to fill in the form.
  - Stack Name: **Lab1Stack**
- - 
+ - DBName: **LabOneDB**
+ - DBPassword: **
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzEzMDAyODEsLTEzODUxMTkxOV19
+eyJoaXN0b3J5IjpbMTk3MTg3NTI3OSwtMTM4NTExOTE5XX0=
 -->
