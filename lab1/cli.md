@@ -2,8 +2,10 @@
 ### Step 1: Open a Terminal
 Open the terminal and change to the directory of the downloaded project.
 
-    enter code here
+    cd /path/to/project/root/lab1
+### Step 2: View Params
+*template-params.json*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTY4NjM2NDYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTg2NzA0NjY3MSw3MzA5OTgxMTZdfQ==
 -->
