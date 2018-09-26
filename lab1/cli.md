@@ -23,8 +23,10 @@ aws cloudformation --describe-stacks
 ```
 You will eventually see a *StackStatus* of *CREATE_COMPLETE*.
 
-In the *Outputs* area you will also see the *WebsiteUrl*
+In the *Outputs* area you will also see the *WebsiteUrl*. Copy and paste that to your browser.
+
+**Do you see your website?**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDAzMDk0MCwzMjE5ODQ4NDgsLTE3OT
-A0NDkwMjIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMzI1MTU2NDM0LDIwMTQwMzA5NDAsMzIxOT
+g0ODQ4LC0xNzkwNDQ5MDIyLDczMDk5ODExNl19
 -->
