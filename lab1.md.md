@@ -12,8 +12,10 @@ On the next screen, on the Choose Template dropdown, choose LAMP Stack. Click *N
 Use the following info to fill in the form.
  - Stack Name: **Lab1Stack**
  - DBName: **LabOneDB**
- - DBPassword: **
-
+ - DBPassword: **LabOnePassword**
+ - DBRootPassword: **LabOneRootPassword**
+ - DBUser: **admin**
+ - KeyName: **[use key created earlier
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTg3NTI3OSwtMTM4NTExOTE5XX0=
+eyJoaXN0b3J5IjpbMTIxMzM2NjU0LC0xMzg1MTE5MTldfQ==
 -->
