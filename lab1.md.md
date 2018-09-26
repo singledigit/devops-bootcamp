@@ -21,7 +21,9 @@ Leaving the rest of the fields to their default value, click *Next*
 ### Step 6: Options
 Leave all defaults and click *Next*
 ### Step 7: Review
-Verify all your data and click *Cl
+Verify all your data and click *Create*
+### Step 8: Waaaaiiiiiiiitttttt
+Patiently wait for you stack to be created.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjA3ODIzNywtMTM4NTExOTE5XX0=
+eyJoaXN0b3J5IjpbMTc5MjE3MTU4OSwtMTM4NTExOTE5XX0=
 -->
