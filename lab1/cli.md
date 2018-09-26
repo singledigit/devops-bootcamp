@@ -21,8 +21,10 @@ Run the following command to check the status of your stack.
 ```
 aws cloudformation --describe-stacks
 ```
-You will eventually see a status of
+You will eventually see a *StackStatus* of *CREATE_COMPLETE*.
+
+In the *Outputs* area you will also see the *WebsiteUrl*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDMyNjc3MSwzMjE5ODQ4NDgsLTE3OT
+eyJoaXN0b3J5IjpbMjAxNDAzMDk0MCwzMjE5ODQ4NDgsLTE3OT
 A0NDkwMjIsNzMwOTk4MTE2XX0=
 -->
