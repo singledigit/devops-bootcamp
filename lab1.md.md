@@ -18,7 +18,8 @@ Use the following info to fill in the form.
  - KeyName: **[use key created earlier]**
 
 Leaving the rest of the fields to their default value, click *Next*
-
+### Step 6: Options
+Leave all defaults and click 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDU4MTY5ODEsLTEzODUxMTkxOV19
+eyJoaXN0b3J5IjpbMTUzNDQ5MjMwMywtMTM4NTExOTE5XX0=
 -->
