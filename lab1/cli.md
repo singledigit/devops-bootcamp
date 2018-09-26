@@ -17,7 +17,7 @@ From within the *Lab1* folder run the following command.
 aws cloudformation create-stack --stack-name Lab1Stack --template-body file://./template.json --parameters file://./template-params.json
 ```
 ### Step 4: Check for Completion
-Run the following command to check the status of your stack.
+Run the following command in your terminal to check the status of your stack.
 ```
 aws cloudformation --describe-stacks
 ```
@@ -26,7 +26,13 @@ You will eventually see a *StackStatus* of *CREATE_COMPLETE*.
 In the *Outputs* area you will also see the *WebsiteUrl*. Copy and paste that to your browser.
 
 **Do you see your website?**
+
+### Step 5: Cleanup
+Run the following command in your terminal.
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1MTU2NDM0LDIwMTQwMzA5NDAsMzIxOT
-g0ODQ4LC0xNzkwNDQ5MDIyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTYxMDgxMzU0NCwyMDE0MDMwOTQwLDMyMT
+k4NDg0OCwtMTc5MDQ0OTAyMiw3MzA5OTgxMTZdfQ==
 -->
