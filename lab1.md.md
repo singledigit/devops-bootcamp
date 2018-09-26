@@ -5,7 +5,7 @@ From the AWS Dashboard home page choose CloudFormation. You Can use the filter t
 ### Step 2:  Ensure the Correct Region
 In the top right corner, ensure that you are set to *Ireland*. If not, click the drop down and choose *Ireland*.
 ### Step 3: Click *Create Stack* Button
-In the top left corner choose *Create Stack*
+In the top left corner choose *Create Stack*.
 ### Step 4: Select Template
 On the next screen, on the Choose Template dropdown, choose LAMP Stack. Click *Next*.
 ### Step 5: Specify Details
@@ -17,18 +17,18 @@ Use the following info to fill in the form.
  - DBUser: **admin**
  - KeyName: **[use key created earlier]**
 
-Leaving the rest of the fields to their default value, click *Next*
+Leaving the rest of the fields to their default value, click *Next*.
 ### Step 6: Options
-Leave all defaults and click *Next*
+Leave all defaults and click *Next*.
 ### Step 7: Review
-Verify all your data and click *Create*
+Verify all your data and click *Create*.
 ### Step 8: Waaaaiiiiiiiitttttt
 Patiently wait for you stack to be created.
 ### Step 9: Retrieve Website URL
-- Click checkbox next to the stack name, *Lab1Stack*
-- Click the *Outputs* tab
-- Copy or click on the *WebsiteUrl*
+- Click checkbox next to the stack name, *Lab1Stack*.
+- Click the *Outputs* tab.
+- Copy or click on the *WebsiteUrl* value.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjY4ODc0NzEsLTE0ODg1NjgwNTMsMT
-c5MjE3MTU4OSwtMTM4NTExOTE5XX0=
+eyJoaXN0b3J5IjpbMTc3NzIxMzYzOCwtMTQ4ODU2ODA1MywxNz
+kyMTcxNTg5LC0xMzg1MTE5MTldfQ==
 -->
