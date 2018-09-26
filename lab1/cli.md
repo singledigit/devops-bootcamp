@@ -12,7 +12,8 @@ Use the following info to fill in the form.
  - DBUser: **admin**
  - KeyName: **[use key created earlier]**
 ### Step 3: Create Stack
-
+From within the *Lab1* folder run the following command.
+	`enter code here`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQyNDc5MjgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEzMTA2ODc1MTcsNzMwOTk4MTE2XX0=
 -->
