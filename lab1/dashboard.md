@@ -28,6 +28,10 @@ Patiently wait for you stack to be created.
 - Click checkbox next to the stack name, *Lab1Stack*.
 - Click the *Outputs* tab.
 - Copy or click on the *WebsiteUrl* value.
+
+**Do you see the website?**
+### Step 10: Cleanup
+Click checkbox next to the stack name, *Lab1Stack*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODE2OTYzOSwxNzc3MjEzNjM4XX0=
+eyJoaXN0b3J5IjpbMTYwNDM0OTI4MiwxNzc3MjEzNjM4XX0=
 -->
