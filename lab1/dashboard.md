@@ -1,4 +1,4 @@
-# Lab 1: Launching Your First Website
+# Lab 1: Launching Your First Website - Dashboard
 
 ### Step 1: Open CloudFormation
 From the AWS Dashboard home page choose CloudFormation. You Can use the filter to help you locate the service.
@@ -25,9 +25,18 @@ Verify all your data and click *Create*.
 ### Step 8: Waaaaiiiiiiiitttttt
 Patiently wait for you stack to be created.
 ### Step 9: Retrieve Website URL
-- Click checkbox next to the stack name, *Lab1Stack*.
+- Click checkbox next to the stack name, *Lab1Stack* to select it.
 - Click the *Outputs* tab.
 - Copy or click on the *WebsiteUrl* value.
+
+**Do you see your website?**
+### Step 10: Cleanup
+- Click checkbox next to the stack name, *Lab1Stack* to select it.
+- Click the *Actions* drop-down at the top and choose *Delete Stack*
+
+**After a few minutes, your stack, and all the provisioned resources will be deleted**
+
+## Lab Complete
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NzIxMzYzOF19
+eyJoaXN0b3J5IjpbMTMxODgyMTU4MSwxNzc3MjEzNjM4XX0=
 -->

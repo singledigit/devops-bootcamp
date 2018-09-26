@@ -1,7 +1,42 @@
+# Lab 1: Launching Your First Website - CLI
+### Step 1: Open a Terminal
+Open the terminal and change to the directory of the downloaded project.
 
+    cd /path/to/project/root/lab1
+### Step 2: Specify Details
+Use the following info to fill in the form.
+ - Stack Name: **Lab1Stack**
+ - DBName: **LabOneDB**
+ - DBPassword: **LabOnePassword**
+ - DBRootPassword: **LabOneRootPassword**
+ - DBUser: **admin**
+ - KeyName: **[use key created earlier]**
+### Step 3: Create Stack
+From within the *Lab1* folder run the following command.
+```
+aws cloudformation create-stack --stack-name Lab1Stack --template-body file://./template.json --parameters file://./template-params.json
+```
+### Step 4: Check for Completion
+Run the following command in your terminal to check the status of your stack.
+```
+aws cloudformation --describe-stacks
+```
+You will eventually see a *StackStatus* of *CREATE_COMPLETE*.
 
+In the *Outputs* area you will also see the *WebsiteUrl*. Copy and paste that to your browser.
 
-> Written with [StackEdit](https://stackedit.io/).
+**Do you see your website?**
+
+### Step 5: Cleanup
+Run the following command in your terminal.
+```
+aws cloudformation delete-stack --stack-name Lab1Stack
+```
+Run the following to verify
+```
+aws cloudformation --describe-stacks
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTM2ODY4NTczMiwyMDE0MDMwOTQwLDMyMT
+k4NDg0OCwtMTc5MDQ0OTAyMiw3MzA5OTgxMTZdfQ==
 -->
