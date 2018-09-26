@@ -11,7 +11,8 @@ Use the following info to fill in the form.
  - DBRootPassword: **LabOneRootPassword**
  - DBUser: **admin**
  - KeyName: **[use key created earlier]**
-### Step 3: 
+### Step 3: Create Stack
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDg4NDgwMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzNDQyNDc5MjgsNzMwOTk4MTE2XX0=
 -->
