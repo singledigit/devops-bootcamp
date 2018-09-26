@@ -24,6 +24,8 @@ Leave all defaults and click *Next*
 Verify all your data and click *Create*
 ### Step 8: Waaaaiiiiiiiitttttt
 Patiently wait for you stack to be created.
+### Step 9: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MjE3MTU4OSwtMTM4NTExOTE5XX0=
+eyJoaXN0b3J5IjpbLTE0ODg1NjgwNTMsMTc5MjE3MTU4OSwtMT
+M4NTExOTE5XX0=
 -->
