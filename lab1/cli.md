@@ -30,9 +30,13 @@ In the *Outputs* area you will also see the *WebsiteUrl*. Copy and paste that to
 ### Step 5: Cleanup
 Run the following command in your terminal.
 ```
-
+aws cloudformation delete-stack --stack-name Lab1Stack
+```
+Run the following to verify
+```
+aws cloudformation --describe-stacks
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDgxMzU0NCwyMDE0MDMwOTQwLDMyMT
+eyJoaXN0b3J5IjpbMTM2ODY4NTczMiwyMDE0MDMwOTQwLDMyMT
 k4NDg0OCwtMTc5MDQ0OTAyMiw3MzA5OTgxMTZdfQ==
 -->
