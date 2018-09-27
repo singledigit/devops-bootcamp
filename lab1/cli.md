@@ -37,9 +37,9 @@ Run the following to verify
 aws cloudformation --describe-stacks
 ```
 
-[Back to Lab1](README.md) | [Back Home](https://github.com/singledigit/devops-bootcamp)
+[Lab1](README.md) | [Home](https://github.com/singledigit/devops-bootcamp)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA4ODI5NDYsMTM2ODY4NTczMiwyMD
-E0MDMwOTQwLDMyMTk4NDg0OCwtMTc5MDQ0OTAyMiw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTEzMDgyNDk4OSwxMzY4Njg1NzMyLDIwMT
+QwMzA5NDAsMzIxOTg0ODQ4LC0xNzkwNDQ5MDIyLDczMDk5ODEx
+Nl19
 -->
