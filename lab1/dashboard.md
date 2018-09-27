@@ -31,6 +31,7 @@ Patiently wait for you stack to be created.
 - Copy or click on the *WebsiteUrl* value.
 
 **Do you see your website?**
+
 ### Step 10: Cleanup
 - Click checkbox next to the stack name, *Lab1Stack* to select it.
 - Click the *Actions* drop-down at the top and choose *Delete Stack*
@@ -39,6 +40,6 @@ Patiently wait for you stack to be created.
 
 [Lab1](README.md) | [Home](https://github.com/singledigit/devops-bootcamp)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTg4NTQ0NSwxMzE4ODIxNTgxLDE3Nz
+eyJoaXN0b3J5IjpbMTk4MDg3MzEzOSwxMzE4ODIxNTgxLDE3Nz
 cyMTM2MzhdfQ==
 -->
