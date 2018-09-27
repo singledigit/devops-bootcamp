@@ -2,7 +2,7 @@
 ## Step 1: Open a Terminal
 Open the terminal and change to the directory of the downloaded project.
 
-    cd /path/to/project/root/lab1
+    cd [project]/lab1
 ## Step 2: Specify Details
 Use the following info to fill in the form.
  - Stack Name: **Lab1Stack**
@@ -39,7 +39,7 @@ aws cloudformation --describe-stacks
 
 [Lab1](README.md) | [Home](https://github.com/singledigit/devops-bootcamp)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyMDE3NjU2LC0xMzA4MjQ5ODksMTM2OD
-Y4NTczMiwyMDE0MDMwOTQwLDMyMTk4NDg0OCwtMTc5MDQ0OTAy
-Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE4Nzk5NDcxNTgsLTEzMDgyNDk4OSwxMz
+Y4Njg1NzMyLDIwMTQwMzA5NDAsMzIxOTg0ODQ4LC0xNzkwNDQ5
+MDIyLDczMDk5ODExNl19
 -->
