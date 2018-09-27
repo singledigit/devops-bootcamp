@@ -42,12 +42,9 @@ Please completely fill out the below questions before submitting. NA or "I don't
 * Whether or not anything will be announced at the event by AWS or a partner if it is a joint session: No
 * What is the expected press and analyst attendance at the event: None
 * Please confirm that you have asked the conference organizers if press and analyst are allowed or expected: Yes
-
 * Please provide the list of press publications and analyst firms (press list from previous year OK):
-
 * If the event will be live streamed: No
-
-* If the event will be recorded/posted to the Internet: No
+* If the event will be recorded/posted to the Internet: Yes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2Njc4NzI2OF19
+eyJoaXN0b3J5IjpbMTgwMTAxNzM5OF19
 -->
