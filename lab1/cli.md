@@ -36,7 +36,10 @@ Run the following to verify
 ```
 aws cloudformation --describe-stacks
 ```
+
+[Back to Lab1](/) | [Back Home](../)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODY4NTczMiwyMDE0MDMwOTQwLDMyMT
-k4NDg0OCwtMTc5MDQ0OTAyMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNTcyMTc5NTYyLDEzNjg2ODU3MzIsMjAxND
+AzMDk0MCwzMjE5ODQ4NDgsLTE3OTA0NDkwMjIsNzMwOTk4MTE2
+XX0=
 -->
