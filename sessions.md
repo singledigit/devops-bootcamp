@@ -24,24 +24,20 @@ Please completely fill out the below questions before submitting. NA or "I don't
 
 **Title:** DevOps -> DevSecOps: Securing your DevOps Pipeline on AWS
 **Abstract:** We work so hard to protect our applications from intruders but often times we fail to secure the deployment process of our applications. In this session you will learn how to make use of native AWS services to ensure your DevOps pipeline will never be to blame for security exposure.
+**Expectations on content (using pre-existing content versus creating new content):** New
 
-**Expectations on content (using pre-existing content versus creating new content): new
+### About Your Speaking Engagement (Session 2)
 
-**About Your Speaking Engagement Session 1**
-
-* Expected session size (i.e. how many seats will be available in the room): <200
-
+* Expected session size (i.e. how many seats will be available in the room): <50
 * Speaking type (session, keynote, panel, moderator, webinar, user group, meet up): Session
-
-* Will Q&A be conducted during or after the session: After
-
+* Will Q&A be conducted during or after the session: During
 * Topic on which you plan to speak (include session description if available):
 
-Title: DevOps -> DevSecOps: Securing your DevOps Pipeline on AWS
+**Title:** DevOps -> DevSecOps: Securing your DevOps Pipeline on AWS
+**Abstract:** We work so hard to protect our applications from intruders but often times we fail to secure the deployment process of our applications. In this session you will learn how to make use of native AWS services to ensure your DevOps pipeline will never be to blame for security exposure.
+**Expectations on content (using pre-existing content versus creating new content):** New
 
-Abstract: We work so hard to protect our applications from intruders but often times we fail to secure the deployment process of our applications. In this session you will learn how to make use of native AWS services to ensure your DevOps pipeline will never be to blame for security exposure.
 
-* Expectations on content (using pre-existing content versus creating new content): new
 
 **Press/Announcements/Streaming/Posting**
 
@@ -57,5 +53,5 @@ Abstract: We work so hard to protect our applications from intruders but often t
 
 * If the event will be recorded/posted to the Internet: No
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDc3MzMwNTldfQ==
+eyJoaXN0b3J5IjpbMTU4MjIxODQ0XX0=
 -->
