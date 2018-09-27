@@ -7,7 +7,8 @@ In the top right corner, ensure that you are set to *Ireland*. If not, click the
 ### Step 3: Click *Create Stack* Button
 In the top left corner choose *Create Stack*.
 ### Step 4: Select Template
-- Under *Choose a Template* ch
+- Under *Choose a Template* choose the option to *Upload a template to Amazon S3*
+- Click the *Choose File* button and browse to *[project]/lab1/template.json*
 ### Step 5: Specify Details
 Use the following info to fill in the form.
  - Stack Name: **Lab1Stack**
@@ -38,6 +39,6 @@ Patiently wait for you stack to be created.
 
 [Lab1](README.md) | [Home](https://github.com/singledigit/devops-bootcamp)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4MjQyNjEzLDEzMTg4MjE1ODEsMTc3Nz
-IxMzYzOF19
+eyJoaXN0b3J5IjpbMTcyNTg4NTQ0NSwxMzE4ODIxNTgxLDE3Nz
+cyMTM2MzhdfQ==
 -->
