@@ -23,7 +23,7 @@ Leaving the rest of the fields to their default value, click *Next*.
 Leave all defaults and click *Next*.
 ## Step 7: Review
 Verify all your data and click *Create*.
-## Step 8: Waaaaiiiiiiiitttttt
+## Step 8: Wait
 Patiently wait for you stack to be created.
 ## Step 9: Retrieve Website URL
 - Click checkbox next to the stack name, *Lab1Stack* to select it.
@@ -40,6 +40,6 @@ Patiently wait for you stack to be created.
 
 [Lab1](README.md) | [Home](https://github.com/singledigit/devops-bootcamp)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk3MjkwMTkxLDEzMTg4MjE1ODEsMTc3Nz
-IxMzYzOF19
+eyJoaXN0b3J5IjpbLTg0MzAwOTYxNywxMzE4ODIxNTgxLDE3Nz
+cyMTM2MzhdfQ==
 -->
