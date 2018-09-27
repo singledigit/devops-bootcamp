@@ -4,13 +4,13 @@ Welcome to the AWS DevOps BootCamp! This one day course is designed to give you 
 ## Pre Requisites
 1. **AWS Account**: An AWS account with admin access. A *Free Tier* account can be opened at [https://aws.amazon.com/free/](https://aws.amazon.com/free/)
 2. **AWS CLI**: While you *can* do these labs using the dashboard, I strongly encourage you to install and configure the AWS-CLI. Instructions can be found at [https://docs.aws.amazon.com/cli/latest/userguide/installing.html](https://docs.aws.amazon.com/cli/latest/userguide/installing.html)
-3. **SAM-CLI**: If you plan to work with Serverless, I would also encourage you to install the SAM-CLI. Instructions can be found
+3. **SAM-CLI**: If you plan to work with Serverless, I would also encourage you to install the SAM-CLI. Instructions can be found at [https://github.com/awslabs/aws-sam-cli/blob/develop/docs/installation.rst](https://github.com/awslabs/aws-sam-cli/blob/develop/docs/installation.rst)
 
 ## Labs
 
 ### [Lab One](lab1)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQ1NDUyMzEsMTUwOTA1NzA3MywzND
-UzNDEzMjcsLTExNzAxNDA1MzJdfQ==
+eyJoaXN0b3J5IjpbMzMyNTU2MTM5LDE1MDkwNTcwNzMsMzQ1Mz
+QxMzI3LC0xMTcwMTQwNTMyXX0=
 -->
