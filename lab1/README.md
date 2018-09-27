@@ -5,7 +5,8 @@ You have two options for this exercise.
 1. [AWS Dashboard](dashboard.md)
 2. [AWS CLI](cli.md)
 
-If you have time, I encourage you to try both. 
+If you have time, I encourage you to try both!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzNTkwMzQ4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTExNDYwMzc0MTksMjYzNTkwMzQ4LDczMD
+k5ODExNl19
 -->
