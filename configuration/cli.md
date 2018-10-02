@@ -7,6 +7,9 @@ Configuring your CLI credentials allows you to interact with AWS resources based
 3. *Secret Access Key*
 
 *See [here](./iam.md) if you are missing any of theses*
+
+## Configure the CLI
+1. Open 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjMwNDIyLC0xMTk3OTUzNjAwXX0=
+eyJoaXN0b3J5IjpbODIzNzE5OTI2LC0xMTk3OTUzNjAwXX0=
 -->
