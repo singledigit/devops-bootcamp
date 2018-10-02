@@ -1,4 +1,4 @@
-##
+### Configuring for the Lab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2MDg2NDQ0XX0=
+eyJoaXN0b3J5IjpbLTMyNDk2NjkxN119
 -->
