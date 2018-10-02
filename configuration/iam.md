@@ -15,9 +15,12 @@ For security reasons, we want to create an IAM user immediately.
 
 ## Step 2: Set permissions
 1. Click the *Create Group* button
-2. In the modal that pops up, click the checkbox next to *Administra
+2. Use *Admin* for the *Group Name*
+3. Click the checkbox next to *AdministratorAccess*
+4. Click the *Create Group* button in the bottom right corner
+5. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzI0MjgyNzYsMTc4NzMxMTM1NywxND
+eyJoaXN0b3J5IjpbLTE2OTAyNzMzMDYsMTc4NzMxMTM1NywxND
 UxOTA4NzI5LDcxODU2ODk5MiwtMTIxMDQzMjgsLTE5Nzk5MTAw
 MzksLTcwMDUzMjg1NSwxOTE0MTg0OTkwLC0xNjQwOTI5MzM0LD
 IxMDc0NTA2NDksMTUwNjU4OTE0N119
