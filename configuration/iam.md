@@ -35,10 +35,11 @@ For security reasons, we want to create an IAM user immediately.
 
 ## Step 4: Change Users
 1. From the user dropdown on the top right corner choose *Sign Out*
-2. In the URL box of your browser, paste the 
+2. In the URL box of your browser, paste the *IAM users sign-in link* from **Step 4**
+3. You should now see the AWS login page with the *Account ID or Alias*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzYyODkwNywxMjE2NTc1NjY3LDE3OD
-czMTEzNTcsMTQ1MTkwODcyOSw3MTg1Njg5OTIsLTEyMTA0MzI4
-LC0xOTc5OTEwMDM5LC03MDA1MzI4NTUsMTkxNDE4NDk5MCwtMT
-Y0MDkyOTMzNCwyMTA3NDUwNjQ5LDE1MDY1ODkxNDddfQ==
+eyJoaXN0b3J5IjpbMjcyMTEwMDczLDEyMTY1NzU2NjcsMTc4Nz
+MxMTM1NywxNDUxOTA4NzI5LDcxODU2ODk5MiwtMTIxMDQzMjgs
+LTE5Nzk5MTAwMzksLTcwMDUzMjg1NSwxOTE0MTg0OTkwLC0xNj
+QwOTI5MzM0LDIxMDc0NTA2NDksMTUwNjU4OTE0N119
 -->
