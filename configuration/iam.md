@@ -14,10 +14,11 @@ For security reasons, we want to create an IAM user immediately.
 5. Uncheck *Require Password Reset*
 
 ## Step 2: Set permissions
-1. 
+1. Click the *Create Group* button
+2. In the modal that pops up, click the checkbox next to *Administra
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NzMxMTM1NywxNDUxOTA4NzI5LDcxOD
-U2ODk5MiwtMTIxMDQzMjgsLTE5Nzk5MTAwMzksLTcwMDUzMjg1
-NSwxOTE0MTg0OTkwLC0xNjQwOTI5MzM0LDIxMDc0NTA2NDksMT
-UwNjU4OTE0N119
+eyJoaXN0b3J5IjpbLTE3MzI0MjgyNzYsMTc4NzMxMTM1NywxND
+UxOTA4NzI5LDcxODU2ODk5MiwtMTIxMDQzMjgsLTE5Nzk5MTAw
+MzksLTcwMDUzMjg1NSwxOTE0MTg0OTkwLC0xNjQwOTI5MzM0LD
+IxMDc0NTA2NDksMTUwNjU4OTE0N119
 -->
