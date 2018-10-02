@@ -30,13 +30,15 @@ For security reasons, we want to create an IAM user immediately.
 4. Click *Close* on the bottom right
 
 ## Step 4: Get Login Link
-1. Choose *Dashboard* on the left 
+1. Choose *Dashboard* on the left menu
+2. Find your *IAM users sign-in link:* and copy it to your computer
 
 ## Step 4: Change Users
 1. From the user dropdown on the top right corner choose *Sign Out*
+2. In the URL box of your browser, paste the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg3MjA1MTIsMTIxNjU3NTY2NywxNz
-g3MzExMzU3LDE0NTE5MDg3MjksNzE4NTY4OTkyLC0xMjEwNDMy
-OCwtMTk3OTkxMDAzOSwtNzAwNTMyODU1LDE5MTQxODQ5OTAsLT
-E2NDA5MjkzMzQsMjEwNzQ1MDY0OSwxNTA2NTg5MTQ3XX0=
+eyJoaXN0b3J5IjpbMjA4NzYyODkwNywxMjE2NTc1NjY3LDE3OD
+czMTEzNTcsMTQ1MTkwODcyOSw3MTg1Njg5OTIsLTEyMTA0MzI4
+LC0xOTc5OTEwMDM5LC03MDA1MzI4NTUsMTkxNDE4NDk5MCwtMT
+Y0MDkyOTMzNCwyMTA3NDUwNjQ5LDE1MDY1ODkxNDddfQ==
 -->
