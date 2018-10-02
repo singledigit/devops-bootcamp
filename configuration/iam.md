@@ -40,8 +40,10 @@ For security reasons, we want to create an IAM user immediately.
 3. You should now see the AWS login page with the *Account ID or Alias* pre-populated
 4. Enter you *IAM User Name* and *Password*
 5. Click the *Sign In* button
+
+[Configure](README.md) | [Home](../README.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTM2ODgxMCwxMjE2NTc1NjY3LDE3OD
+eyJoaXN0b3J5IjpbMTE5NzIyOTgxNCwxMjE2NTc1NjY3LDE3OD
 czMTEzNTcsMTQ1MTkwODcyOSw3MTg1Njg5OTIsLTEyMTA0MzI4
 LC0xOTc5OTEwMDM5LC03MDA1MzI4NTUsMTkxNDE4NDk5MCwtMT
 Y0MDkyOTMzNCwyMTA3NDUwNjQ5LDE1MDY1ODkxNDddfQ==
