@@ -5,9 +5,10 @@ For security reasons, we want to create an IAM user immediately.
 
 ![Choose IAM](../assets/aws-1.png)
 
-1. From the home dashboard choose *IAM Services* 
+1. From the home dashboard type *IAM* into the search box at the top.
+2. Choose *IAM Services* from the dropdown
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODQxMjg0NCwtMTIxMDQzMjgsLTE5Nz
-k5MTAwMzksLTcwMDUzMjg1NSwxOTE0MTg0OTkwLC0xNjQwOTI5
-MzM0LDIxMDc0NTA2NDksMTUwNjU4OTE0N119
+eyJoaXN0b3J5IjpbNzE4NTY4OTkyLC0xMjEwNDMyOCwtMTk3OT
+kxMDAzOSwtNzAwNTMyODU1LDE5MTQxODQ5OTAsLTE2NDA5Mjkz
+MzQsMjEwNzQ1MDY0OSwxNTA2NTg5MTQ3XX0=
 -->
