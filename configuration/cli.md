@@ -1,4 +1,8 @@
-### Configuring Your AWS CLI to work with your acc
+# Configuring the AWS CLI Credentials
+Configuring your CLI credentials allows you to interact with AWS resources based upon the permissions provided by your admin to your user.
+
+## Requirements
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzUwOTA5MTRdfQ==
+eyJoaXN0b3J5IjpbLTE2NTQzMTU2MTJdfQ==
 -->
