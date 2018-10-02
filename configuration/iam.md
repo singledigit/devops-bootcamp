@@ -18,7 +18,7 @@ For security reasons, we want to create an IAM user immediately.
 1. Click the *Create Group* button.
 2. Use *Admin* for the *Group Name*.
 3. Click the checkbox next to *AdministratorAccess*.
-4. Click the *Create Group* button in the bottom right corner. (You might already have groups if this is an account you are using. You are welcome tyo use another group just make sure it has admin rights for no
+4. Click the *Create Group* button in the bottom right corner. (You might already have groups if this is an account you are using. You are welcome tyo use another group just make sure it has the *AdministratorAccess* policy attached).
 5. When you are returned to the *Set Permissions* window, the group *Admin* should already be checked in the *Add User to Group* section. If not, than please check it.
 6. Click the *Next: Review* button on the bottom right.
 7. On the the *Review* page, click *Create User* on the bottom right.
@@ -43,7 +43,7 @@ For security reasons, we want to create an IAM user immediately.
 
 [Configure](README.md) | [Home](../README.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjYzMzg3NiwxMjE2NTc1NjY3LDE3OD
+eyJoaXN0b3J5IjpbMTA0NjM2MTE5OSwxMjE2NTc1NjY3LDE3OD
 czMTEzNTcsMTQ1MTkwODcyOSw3MTg1Njg5OTIsLTEyMTA0MzI4
 LC0xOTc5OTEwMDM5LC03MDA1MzI4NTUsMTkxNDE4NDk5MCwtMT
 Y0MDkyOTMzNCwyMTA3NDUwNjQ5LDE1MDY1ODkxNDddfQ==
