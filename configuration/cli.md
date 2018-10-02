@@ -21,8 +21,8 @@ Configuring your CLI credentials allows you to interact with AWS resources based
 9. For *Default Output Format* type `json`
 10. Hit *Enter* 
 
-[Configure](README.md) | [Home](https://github.com/singledigit/devops-bootcamp)
+[Configure](README.md) | [Home](../README.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDY2NDc3OCw4MjM3MTk5MjYsLTExOT
+eyJoaXN0b3J5IjpbMTA1MTU1NTY1MSw4MjM3MTk5MjYsLTExOT
 c5NTM2MDBdfQ==
 -->
