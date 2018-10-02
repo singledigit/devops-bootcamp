@@ -1,11 +1,11 @@
 # Creating an IAM user
 For security reasons, we want to create an IAM user immediately.
 
-![enter image description here](../assets/aws-1.png)
+## Step 1: Choose IAM Services from the main dashboard
 
 This should work
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk5MTAwMzksLTcwMDUzMjg1NSwxOT
-E0MTg0OTkwLC0xNjQwOTI5MzM0LDIxMDc0NTA2NDksMTUwNjU4
-OTE0N119
+eyJoaXN0b3J5IjpbLTEyMTA0MzI4LC0xOTc5OTEwMDM5LC03MD
+A1MzI4NTUsMTkxNDE4NDk5MCwtMTY0MDkyOTMzNCwyMTA3NDUw
+NjQ5LDE1MDY1ODkxNDddfQ==
 -->
