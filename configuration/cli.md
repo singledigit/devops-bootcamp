@@ -11,8 +11,9 @@ Configuring your CLI credentials allows you to interact with AWS resources based
 
 ## Configure the CLI
 1. Open a Terminal
-2. Type the command `AWS Config`
+2. Type the command `aws configure`
+3. Depending on your terminal you can either Copy/Paste or type your *AWS Access 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDc3NzEzMSw4MjM3MTk5MjYsLTExOT
-c5NTM2MDBdfQ==
+eyJoaXN0b3J5IjpbLTExMjQ3OTUzNTIsODIzNzE5OTI2LC0xMT
+k3OTUzNjAwXX0=
 -->
