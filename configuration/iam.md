@@ -1,16 +1,19 @@
 # Creating an IAM user
 For security reasons, we want to create an IAM user immediately.
 
-
+## Step 1: Creating a User
 1. From the home dashboard type *IAM* into the search box at the top.
 2. Choose *IAM Services* from the dropdown
 3. Choose *Users* on the left menu
 4. Click the blue "Add User" button at the top
-5. 
+
+## Step 2: Set User Details
+1. Fill in a *User name*
+2. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDU1ODg3MywxNDUxOTA4NzI5LDcxOD
-U2ODk5MiwtMTIxMDQzMjgsLTE5Nzk5MTAwMzksLTcwMDUzMjg1
-NSwxOTE0MTg0OTkwLC0xNjQwOTI5MzM0LDIxMDc0NTA2NDksMT
-UwNjU4OTE0N119
+eyJoaXN0b3J5IjpbMzYxNTQwOTUsMTQ1MTkwODcyOSw3MTg1Nj
+g5OTIsLTEyMTA0MzI4LC0xOTc5OTEwMDM5LC03MDA1MzI4NTUs
+MTkxNDE4NDk5MCwtMTY0MDkyOTMzNCwyMTA3NDUwNjQ5LDE1MD
+Y1ODkxNDddfQ==
 -->
