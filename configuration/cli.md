@@ -13,11 +13,13 @@ Configuring your CLI credentials allows you to interact with AWS resources based
 1. Open a Terminal
 2. Type the command `aws configure`
 3. Depending on your terminal you can either Copy/Paste or type your *AWS Access Key ID*
-4. Hit Enter
+4. Hit *Enter*
 5. Do the same for your *Secret Access Key*
-6. Hit Enter
-7. For *Default Region Name* choose the closest region to you (eu-west-2
+6. Hit *Enter*
+7. For *Default Region Name* use closest region to you (Ex: eu-west-2)
+8. Hit *Enter*
+9. For *Default Output Format* typ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzExMzc0Niw4MjM3MTk5MjYsLTExOT
+eyJoaXN0b3J5IjpbMTEyODYxNDk4Miw4MjM3MTk5MjYsLTExOT
 c5NTM2MDBdfQ==
 -->
