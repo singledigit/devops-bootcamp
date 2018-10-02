@@ -19,11 +19,14 @@ For security reasons, we want to create an IAM user immediately.
 3. Click the checkbox next to *AdministratorAccess*
 4. Click the *Create Group* button in the bottom right corner
 5. When you are returned to the *Set Permissions* window, the group *Admin* should already be checked in the *Add User to Group* section. If not, than please check it.
-6. Click the *Next: Review* button on the bottom left
+6. Click the *Next: Review* button on the bottom right
 7. On the the *Review* page, click *Create User* on the bottom right
+
+## Step 3: Store Credentials
+1. Copy the Access
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzODcyMjIyLDE3ODczMTEzNTcsMTQ1MT
-kwODcyOSw3MTg1Njg5OTIsLTEyMTA0MzI4LC0xOTc5OTEwMDM5
-LC03MDA1MzI4NTUsMTkxNDE4NDk5MCwtMTY0MDkyOTMzNCwyMT
-A3NDUwNjQ5LDE1MDY1ODkxNDddfQ==
+eyJoaXN0b3J5IjpbLTE3MDU5OTQxNjgsMTc4NzMxMTM1NywxND
+UxOTA4NzI5LDcxODU2ODk5MiwtMTIxMDQzMjgsLTE5Nzk5MTAw
+MzksLTcwMDUzMjg1NSwxOTE0MTg0OTkwLC0xNjQwOTI5MzM0LD
+IxMDc0NTA2NDksMTUwNjU4OTE0N119
 -->
