@@ -8,10 +8,12 @@ For security reasons, we want to create an IAM user immediately.
 
 ![Choose User Section](../assets/iam-2.png)
 
-
+| My first point             |
+| My second point |
+|--------------------|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzMyMzYwNzQsMTQ1MTkwODcyOSw3MT
-g1Njg5OTIsLTEyMTA0MzI4LC0xOTc5OTEwMDM5LC03MDA1MzI4
-NTUsMTkxNDE4NDk5MCwtMTY0MDkyOTMzNCwyMTA3NDUwNjQ5LD
-E1MDY1ODkxNDddfQ==
+eyJoaXN0b3J5IjpbODM5OTI3MDAyLDE0NTE5MDg3MjksNzE4NT
+Y4OTkyLC0xMjEwNDMyOCwtMTk3OTkxMDAzOSwtNzAwNTMyODU1
+LDE5MTQxODQ5OTAsLTE2NDA5MjkzMzQsMjEwNzQ1MDY0OSwxNT
+A2NTg5MTQ3XX0=
 -->
