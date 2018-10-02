@@ -38,8 +38,8 @@ Patiently wait for you stack to be created.
 
 **After a few minutes, your stack, and all the provisioned resources will be deleted**
 
-[Lab1](README.md) | [Home](https://github.com/singledigit/devops-bootcamp)
+[Lab1](README.md) | [Home](../README.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzAwOTYxNywxMzE4ODIxNTgxLDE3Nz
-cyMTM2MzhdfQ==
+eyJoaXN0b3J5IjpbLTE4MjgxNjgzNDQsMTMxODgyMTU4MSwxNz
+c3MjEzNjM4XX0=
 -->
