@@ -12,7 +12,7 @@ For security reasons, we want to create an IAM user immediately.
 3. Choose the *Custom Password* option for *Console Password*.
 4. Fill in your *Password*.
 5. Uncheck *Require Password Reset*.
-6. Be sure and save your *Username* and P*assword somewhere where you can get it
+6. Be sure and save your *Username* and *Password* somewhere where you can get it
 
 ## Step 2: Set permissions
 1. Click the *Create Group* button.
@@ -41,8 +41,8 @@ For security reasons, we want to create an IAM user immediately.
 4. Enter you *IAM User Name* and *Password*
 5. Click the *Sign In* button
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3NTIwNzU4LDEyMTY1NzU2NjcsMTc4Nz
-MxMTM1NywxNDUxOTA4NzI5LDcxODU2ODk5MiwtMTIxMDQzMjgs
-LTE5Nzk5MTAwMzksLTcwMDUzMjg1NSwxOTE0MTg0OTkwLC0xNj
-QwOTI5MzM0LDIxMDc0NTA2NDksMTUwNjU4OTE0N119
+eyJoaXN0b3J5IjpbMTYwNTM2ODgxMCwxMjE2NTc1NjY3LDE3OD
+czMTEzNTcsMTQ1MTkwODcyOSw3MTg1Njg5OTIsLTEyMTA0MzI4
+LC0xOTc5OTEwMDM5LC03MDA1MzI4NTUsMTkxNDE4NDk5MCwtMT
+Y0MDkyOTMzNCwyMTA3NDUwNjQ5LDE1MDY1ODkxNDddfQ==
 -->
