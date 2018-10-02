@@ -16,10 +16,11 @@ Configuring your CLI credentials allows you to interact with AWS resources based
 4. Hit *Enter*
 5. Do the same for your *Secret Access Key*
 6. Hit *Enter*
-7. For *Default Region Name* use closest region to you (Ex: eu-west-2)
+7. For *Default Region Name* use closest region to you (Ex: `eu-west-2`)
 8. Hit *Enter*
-9. For *Default Output Format* typ
+9. For *Default Output Format* type `json`
+10. Hit *Enter* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODYxNDk4Miw4MjM3MTk5MjYsLTExOT
-c5NTM2MDBdfQ==
+eyJoaXN0b3J5IjpbMjc5MDkzMjQ1LDgyMzcxOTkyNiwtMTE5Nz
+k1MzYwMF19
 -->
