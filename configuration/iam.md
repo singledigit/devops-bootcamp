@@ -27,11 +27,15 @@ For security reasons, we want to create an IAM user immediately.
 1. Copy the *Access Key ID* and save it to your computer.
 2. Click *Show* next to your *Secret Access Key*.
 3. Copy your *Secret Access Key* and save it to your computer.
+4. Click *Close* on the bottom right
+
+## Step 4: Get Login Link
+1. Choose *Dashboard* on the left 
 
 ## Step 4: Change Users
 1. From the user dropdown on the top right corner choose *Sign Out*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTM2OTE4NjMsMTIxNjU3NTY2NywxNz
+eyJoaXN0b3J5IjpbLTEzNjg3MjA1MTIsMTIxNjU3NTY2NywxNz
 g3MzExMzU3LDE0NTE5MDg3MjksNzE4NTY4OTkyLC0xMjEwNDMy
 OCwtMTk3OTkxMDAzOSwtNzAwNTMyODU1LDE5MTQxODQ5OTAsLT
 E2NDA5MjkzMzQsMjEwNzQ1MDY0OSwxNTA2NTg5MTQ3XX0=
