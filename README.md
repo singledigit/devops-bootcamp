@@ -7,7 +7,7 @@ Welcome to the AWS DevOps BootCamp! This one day course is designed to give you 
 3. **SAM-CLI**: If you plan to work with Serverless, I would also encourage you to install the SAM-CLI. Instructions can be found at [https://github.com/awslabs/aws-sam-cli/blob/develop/docs/installation.rst](https://github.com/awslabs/aws-sam-cli/blob/develop/docs/installation.rst)
 
 ## Configuration Instructions
-Click [here](./labs/configure/README.md) to prepare for the Labs
+Click [here](./labs/configuration/README.md) to prepare for the Labs
 
 ## Labs
 ***To run these labs, be sure and clone or download this repo to your local machine***
