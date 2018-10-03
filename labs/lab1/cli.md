@@ -37,9 +37,4 @@ Run the following to verify
 aws cloudformation --describe-stacks
 ```
 
-[Lab1](README.md) | [Home](../README.md)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODg5NzMwOSwtMTg3OTk0NzE1OCwtMT
-MwODI0OTg5LDEzNjg2ODU3MzIsMjAxNDAzMDk0MCwzMjE5ODQ4
-NDgsLTE3OTA0NDkwMjIsNzMwOTk4MTE2XX0=
--->
+[Lab1](README.md) | [Home](../../README.md)

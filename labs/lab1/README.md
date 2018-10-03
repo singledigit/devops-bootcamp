@@ -6,7 +6,5 @@ You have two options for this exercise.
 2. [AWS CLI](cli.md)
 
 If you have time, I encourage you to try both!
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbOTczNDI2MjkzLC0xMTQ2MDM3NDE5LDI2Mz
-U5MDM0OCw3MzA5OTgxMTZdfQ==
--->
+
+[Home](../../README.md)

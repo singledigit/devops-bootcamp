@@ -21,8 +21,4 @@ Configuring your CLI credentials allows you to interact with AWS resources based
 9. For *Default Output Format* type `json`
 10. Hit *Enter* 
 
-[Configure](README.md) | [Home](../README.md)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTU1NTY1MSw4MjM3MTk5MjYsLTExOT
-c5NTM2MDBdfQ==
--->
+[Configure](README.md) | [Home](../../README.md)

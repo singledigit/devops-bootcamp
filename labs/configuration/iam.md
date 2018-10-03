@@ -41,10 +41,4 @@ For security reasons, we want to create an IAM user immediately.
 4. Enter you *IAM User Name* and *Password*
 5. Click the *Sign In* button
 
-[Configure](README.md) | [Home](../README.md)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NjM2MTE5OSwxMjE2NTc1NjY3LDE3OD
-czMTEzNTcsMTQ1MTkwODcyOSw3MTg1Njg5OTIsLTEyMTA0MzI4
-LC0xOTc5OTEwMDM5LC03MDA1MzI4NTUsMTkxNDE4NDk5MCwtMT
-Y0MDkyOTMzNCwyMTA3NDUwNjQ5LDE1MDY1ODkxNDddfQ==
--->
+[Configure](README.md) | [Home](../../README.md)
