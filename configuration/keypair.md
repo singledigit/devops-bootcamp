@@ -8,8 +8,8 @@ Required to launch EC2 instances.
 5. In the *Create Key Pair* enter a name of your choice for the *Key Pair Name*
 6. Click *Create*
 
-**Take note
+**Take note, a file will be downloaded *yourkeyname.pem*. This file is required to remotely connect to any instances create
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTI0OTIxMywxNzA4ODc3OTM1LDk1Mz
-A2ODA1Ml19
+eyJoaXN0b3J5IjpbODcwNDY2MTc5LDE3MDg4Nzc5MzUsOTUzMD
+Y4MDUyXX0=
 -->
