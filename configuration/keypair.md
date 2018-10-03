@@ -1,4 +1,4 @@
-# Create EC2 Keypair
+# Create EC2 Key Pair
 Required to launch EC2 instances.
 
 1. From the home dashboard type *EC2* into the search box at the top.
@@ -8,10 +8,10 @@ Required to launch EC2 instances.
 5. In the *Create Key Pair* enter a name of your choice for the *Key Pair Name*
 6. Click *Create*
 
-**Take note, a file will be downloaded *yourkeyname.pem*. This file is required to remotely connect to any instances created in this lab.
+**Take note, a file will be downloaded *yourkeyname.pem*. This file is required to remotely connect to any instances created in this lab.**
 
 [Configure](README.md) | [Home](../README.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzNDA5ODU3LDU4Mjg3MDk3NSwxNzA4OD
-c3OTM1LDk1MzA2ODA1Ml19
+eyJoaXN0b3J5IjpbLTE5MTU0ODEwMDMsNTgyODcwOTc1LDE3MD
+g4Nzc5MzUsOTUzMDY4MDUyXX0=
 -->
