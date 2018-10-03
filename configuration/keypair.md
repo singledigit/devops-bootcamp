@@ -1,11 +1,12 @@
 # Create EC2 Keypair
 Required to launch EC2 instances.
 
-From the home dashboard type *IAM* into the search box at the top.
-2. Choose *IAM Services* from the dropdown.
+From the home dashboard type *EC2* into the search box at the top.
+2. Choose *EC2* from the dropdown.
 3. Choose *Users* on the left menu.
 4. Click the blue "Add User" button at the top.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODg3NzkzNSw5NTMwNjgwNTJdfQ==
+eyJoaXN0b3J5IjpbLTE1NDg4NTc5MzMsMTcwODg3NzkzNSw5NT
+MwNjgwNTJdfQ==
 -->
