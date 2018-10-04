@@ -1,6 +1,8 @@
 # Configuring the AWS CLI Credentials
 Configuring your CLI credentials allows you to interact with AWS resources based upon the permissions provided by your admin to your user.
 
+*Instructions are for Windows, Linux, Mac OSX*
+
 ## Requirements
 1. A user with *Programmatic Access* to an AWS account
 2. *Access Key ID*
@@ -16,7 +18,7 @@ Configuring your CLI credentials allows you to interact with AWS resources based
 4. Hit *Enter*
 5. Do the same for your *Secret Access Key*
 6. Hit *Enter*
-7. For *Default Region Name* use closest region to you (Ex: `eu-west-2`)
+7. For *Default Region Name* use closest region to you (Ex: `eu-west-1`)
 8. Hit *Enter*
 9. For *Default Output Format* type `json`
 10. Hit *Enter* 
