@@ -56,6 +56,7 @@ Resources:
             - Effect: Allow
               Action:
                 - codebuild:StartBuild
+                - codebuild:BatchGetBuilds
               Resource:
                 - !GetAtt BuildProject.Arn
 
@@ -73,7 +74,7 @@ Resources:
             Action: 
               - "sts:AssumeRole"
       Policies:
-        - PolicyName: CodeBuild
+        - PolicyName: CodeBuild-Logs
           PolicyDocument:
             Version: '2012-10-17'
             Statement:
@@ -85,17 +86,18 @@ Resources:
               - logs:CreateLogGroup
               - logs:CreateLogStream
               - logs:PutLogEvents
+        - PolicyName: CodeBuild-S3
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
             - Effect: Allow
+              Action:
+                - s3:GetObject
+                - s3:PutObject
               Resource:
-              - arn:aws:s3:::codepipeline-eu-west-1-*
-              Action:
-              - s3:PutObject
-              - s3:GetObject
-              - s3:GetObjectVersion
-            - Effect: Allow
-              Action:
-              - ssm:GetParameters
-              Resource: arn:aws:ssm:eu-west-1:589314110032:parameter/CodeBuild/*
+                - !Sub arn:aws:s3:::${ArtifactsS3}
+                - !Sub arn:aws:s3:::${ArtifactsS3}/*
+
     
   AmazonCloudWatchEventRole:
     Type: AWS::IAM::Role
