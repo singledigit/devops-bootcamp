@@ -25,15 +25,40 @@ Resources:
             Service: codepipeline.amazonaws.com
           Action: sts:AssumeRole
       Policies:
-        - PolicyName: Logging
+        - PolicyName: CodePipeline-CodeCommit
           PolicyDocument:
             Version: '2012-10-17'
             Statement:
             - Effect: Allow
               Action:
-                - codepipeline:StartPipelineExecution
+                - codecommit:GetBranch
+                - codecommit:GetCommit
+                - codecommit:UploadArchive
+                - codecommit:GetUploadArchiveStatus
+                - codecommit:CancelUploadArchive
               Resource:
-                - !Sub arn:aws:codepipeline:${AWS::Region}:${AWS::AccountId}:*
+                - !GetAtt Repo.Arn
+        - PolicyName: CodePipeline-S3
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+            - Effect: Allow
+              Action:
+                - s3:GetObject
+                - s3:PutObject
+              Resource:
+                - !Sub arn:aws:s3:::${ArtifactsS3}
+                - !Sub arn:aws:s3:::${ArtifactsS3}/*
+        - PolicyName: CodePipeline-CodeBuild
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+            - Effect: Allow
+              Action:
+                - codebuild:StartBuild
+              Resource:
+                - !GetAtt BuildProject.Arn
+
 
   BuildProjectRole:
     Type: AWS::IAM::Role
@@ -72,6 +97,26 @@ Resources:
               - ssm:GetParameters
               Resource: arn:aws:ssm:eu-west-1:589314110032:parameter/CodeBuild/*
     
+  AmazonCloudWatchEventRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - events.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: cwe-pipeline-execution
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action: codepipeline:StartPipelineExecution
+                Resource: !Sub arn:aws:codepipeline:${AWS::Region}:${AWS::AccountId}:${LabPipeline}
+
   # Pipeline
   LabPipeline:
     Type: AWS::CodePipeline::Pipeline
@@ -91,8 +136,8 @@ Resources:
                 Version: "1"
               Configuration:
                 PollForSourceChanges: false 
-                BranchName: master, 
-                RepositoryName: !Ref Repo
+                BranchName: master
+                RepositoryName: !GetAtt Repo.Name
               OutputArtifacts:
                 - Name: SourceOut
               RunOrder: 1
@@ -125,3 +170,26 @@ Resources:
       ServiceRole: !GetAtt BuildProjectRole.Arn
       Source:
         Type: CODEPIPELINE
+
+  AmazonCloudWatchEventRule:
+    Type: AWS::Events::Rule
+    Properties:
+      EventPattern:
+        source:
+          - aws.codecommit
+        detail-type:
+          - 'CodeCommit Repository State Change'
+        resources:
+          - !GetAtt Repo.Arn
+        detail:
+          event:
+            - referenceCreated
+            - referenceUpdated
+          referenceType:
+            - branch
+          referenceName:
+            - master
+      Targets:
+        - Arn: !Sub arn:aws:codepipeline:${AWS::Region}:${AWS::AccountId}:${LabPipeline}
+          RoleArn: !GetAtt AmazonCloudWatchEventRole.Arn
+          Id: codepipeline-AppPipeline
