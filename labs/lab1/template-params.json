@@ -1,23 +1,7 @@
 
 [
     {
-      "ParameterKey": "KeyName",
-      "ParameterValue": ""
-    }, 
-    {
-      "ParameterKey": "DBName",
-      "ParameterValue": ""
-    }, 
-    {
-      "ParameterKey": "DBPassword",
-      "ParameterValue": ""
-    }, 
-    {
-      "ParameterKey": "DBRootPassword",
-      "ParameterValue": ""
-    }, 
-    {
-      "ParameterKey": "DBUser",
-      "ParameterValue": ""
+      "ParameterKey": "KeyPairName",
+      "ParameterValue": "ru-demo"
     }
   ]
