@@ -10,7 +10,7 @@ Conditions:
   - !Equals
     - !Ref 'SubnetId'
     - subnet-none
-Description: An Express.js web application deployed to Amazon EC2.
+Description: Node app pipeline.
 Metadata:
   AWS::CloudFormation::Interface:
     ParameterGroups:
@@ -345,16 +345,16 @@ Resources:
         PolicyName: CodeStarWorkerCodePipelineRolePolicy
       RoleName: !Sub 'CodeStarWorker-${ProjectId}-CodePipeline'
     Type: AWS::IAM::Role
-  CodeStarProject:
-    Description: Starting project creation
-    Properties:
-      ProjectDescription: AWS CodeStar created project
-      ProjectId: !Ref 'ProjectId'
-      ProjectName: !Ref 'AppName'
-      ProjectTemplateId: arn:aws:codestar:eu-west-1::project-template/codecommit/webapp-nodeexpress-ec2
-      StackId: !Ref 'AWS::StackId'
-    Type: AWS::CodeStar::Project
-    Version: 1.0
+  # CodeStarProject:
+  #   Description: Starting project creation
+  #   Properties:
+  #     ProjectDescription: AWS CodeStar created project
+  #     ProjectId: !Ref 'ProjectId'
+  #     ProjectName: !Ref 'AppName'
+  #     ProjectTemplateId: arn:aws:codestar:eu-west-1::project-template/codecommit/webapp-nodeexpress-ec2
+  #     StackId: !Ref 'AWS::StackId'
+  #   Type: AWS::CodeStar::Project
+  #   Version: 1.0
   DeploymentGroup:
     Description: Creating AWS CodeDeploy deployment groups for project application
     Properties:
@@ -422,57 +422,57 @@ Resources:
           - Name: !Sub '${ProjectId}-BuildArtifact'
           RunOrder: 1
         Name: Build
-      - Actions:
-        - ActionTypeId:
-            Category: Deploy
-            Owner: AWS
-            Provider: CloudFormation
-            Version: 1
-          Configuration:
-            ActionMode: CHANGE_SET_REPLACE
-            Capabilities: CAPABILITY_NAMED_IAM
-            ChangeSetName: pipeline-changeset
-            ParameterOverrides: !Sub "{\n  \"ProjectId\":\"${ProjectId}\",\n  \"InstanceType\"\
-              :\"${InstanceType}\",\n  \"WebAppInstanceProfile\":\"${WebAppInstanceProfile}\"\
-              ,\n  \"ImageId\":\"ami-f9dd458a\",\n  \"KeyPairName\":\"${KeyPairName}\"\
-              ,\n  \"SubnetId\":\"${SubnetId}\",\n  \"VpcId\":\"${VpcId}\"\n}\n"
-            RoleArn: !GetAtt 'CloudFormationTrustRole.Arn'
-            StackName: !Sub 'awscodestar-${ProjectId}-infrastructure'
-            TemplatePath: !Sub '${ProjectId}-BuildArtifact::template.yml'
-          InputArtifacts:
-          - Name: !Sub '${ProjectId}-BuildArtifact'
-          Name: GenerateChangeSet
-          OutputArtifacts: [
-            ]
-          RunOrder: 1
-        - ActionTypeId:
-            Category: Deploy
-            Owner: AWS
-            Provider: CloudFormation
-            Version: 1
-          Configuration:
-            ActionMode: CHANGE_SET_EXECUTE
-            ChangeSetName: pipeline-changeset
-            StackName: !Sub 'awscodestar-${ProjectId}-infrastructure'
-          InputArtifacts: [
-            ]
-          Name: ExecuteChangeSet
-          OutputArtifacts: [
-            ]
-          RunOrder: 2
-        - ActionTypeId:
-            Category: Deploy
-            Owner: AWS
-            Provider: CodeDeploy
-            Version: 1
-          Configuration:
-            ApplicationName: !Ref 'CodeDeployApplication'
-            DeploymentGroupName: !Ref 'DeploymentGroup'
-          InputArtifacts:
-          - Name: !Sub '${ProjectId}-BuildArtifact'
-          Name: Deploy
-          RunOrder: 3
-        Name: Deploy
+      # - Actions:
+      #   - ActionTypeId:
+      #       Category: Deploy
+      #       Owner: AWS
+      #       Provider: CloudFormation
+      #       Version: 1
+      #     Configuration:
+      #       ActionMode: CHANGE_SET_REPLACE
+      #       Capabilities: CAPABILITY_NAMED_IAM
+      #       ChangeSetName: pipeline-changeset
+      #       ParameterOverrides: !Sub "{\n  \"ProjectId\":\"${ProjectId}\",\n  \"InstanceType\"\
+      #         :\"${InstanceType}\",\n  \"WebAppInstanceProfile\":\"${WebAppInstanceProfile}\"\
+      #         ,\n  \"ImageId\":\"ami-f9dd458a\",\n  \"KeyPairName\":\"${KeyPairName}\"\
+      #         ,\n  \"SubnetId\":\"${SubnetId}\",\n  \"VpcId\":\"${VpcId}\"\n}\n"
+      #       RoleArn: !GetAtt 'CloudFormationTrustRole.Arn'
+      #       StackName: !Sub 'awscodestar-${ProjectId}-infrastructure'
+      #       TemplatePath: !Sub '${ProjectId}-BuildArtifact::template.yml'
+      #     InputArtifacts:
+      #     - Name: !Sub '${ProjectId}-BuildArtifact'
+      #     Name: GenerateChangeSet
+      #     OutputArtifacts: [
+      #       ]
+      #     RunOrder: 1
+      #   - ActionTypeId:
+      #       Category: Deploy
+      #       Owner: AWS
+      #       Provider: CloudFormation
+      #       Version: 1
+      #     Configuration:
+      #       ActionMode: CHANGE_SET_EXECUTE
+      #       ChangeSetName: pipeline-changeset
+      #       StackName: !Sub 'awscodestar-${ProjectId}-infrastructure'
+      #     InputArtifacts: [
+      #       ]
+      #     Name: ExecuteChangeSet
+      #     OutputArtifacts: [
+      #       ]
+      #     RunOrder: 2
+      #   - ActionTypeId:
+      #       Category: Deploy
+      #       Owner: AWS
+      #       Provider: CodeDeploy
+      #       Version: 1
+      #     Configuration:
+      #       ApplicationName: !Ref 'CodeDeployApplication'
+      #       DeploymentGroupName: !Ref 'DeploymentGroup'
+      #     InputArtifacts:
+      #     - Name: !Sub '${ProjectId}-BuildArtifact'
+      #     Name: Deploy
+      #     RunOrder: 3
+      #   Name: Deploy
     Type: AWS::CodePipeline::Pipeline
   S3ArtifactBucketPolicy:
     Description: Setting Amazon S3 bucket policy for AWS CodePipeline access
@@ -532,20 +532,20 @@ Resources:
       VersioningConfiguration:
         Status: Enabled
     Type: AWS::S3::Bucket
-  SeedRepo:
-    DeletionPolicy: Retain
-    DependsOn:
-    - CodeCommitRepo
-    Description: Adding application source code to the AWS CodeCommit repository for the project
-    Properties:
-      DefaultBranchName: master
-      ProjectId: !Ref 'ProjectId'
-      ProjectTemplateId: arn:aws:codestar:eu-west-1::project-template/codecommit/webapp-nodeexpress-ec2
-      RepositoryProvider: CodeCommit
-      RepositoryURL: !GetAtt
-      - CodeCommitRepo
-      - CloneUrlHttp
-    Type: AWS::CodeStar::SeedRepository
+  # SeedRepo:
+  #   DeletionPolicy: Retain
+  #   DependsOn:
+  #   - CodeCommitRepo
+  #   Description: Adding application source code to the AWS CodeCommit repository for the project
+  #   Properties:
+  #     DefaultBranchName: master
+  #     ProjectId: !Ref 'ProjectId'
+  #     ProjectTemplateId: arn:aws:codestar:eu-west-1::project-template/codecommit/webapp-nodeexpress-ec2
+  #     RepositoryProvider: CodeCommit
+  #     RepositoryURL: !GetAtt
+  #     - CodeCommitRepo
+  #     - CloneUrlHttp
+  #   Type: AWS::CodeStar::SeedRepository
   SourceEvent:
     Properties:
       Description: Rule for Amazon CloudWatch Events to detect changes to the source repository and trigger pipeline execution
@@ -621,26 +621,26 @@ Resources:
         - !Ref 'ProjectId'
         - CloudWatchEventRule
     Type: AWS::IAM::Role
-  SyncInitialResources:
-    DependsOn:
-    - SeedRepo
-    Description: Adding the AWS CodeCommit repository to your AWS CodeStar project.
-    Properties:
-      ProjectId: !Ref 'ProjectId'
-    Type: AWS::CodeStar::SyncResources
-    Version: 1.0
-  SyncResources:
-    DependsOn:
-    - SeedRepo
-    - DeploymentGroup
-    - CodeDeployApplication
-    - ProjectPipeline
-    - SyncInitialResources
-    Description: Adding all created resources to your AWS CodeStar project
-    Properties:
-      ProjectId: !Ref 'ProjectId'
-    Type: AWS::CodeStar::SyncResources
-    Version: 1.0
+  # SyncInitialResources:
+  #   DependsOn:
+  #   - SeedRepo
+  #   Description: Adding the AWS CodeCommit repository to your AWS CodeStar project.
+  #   Properties:
+  #     ProjectId: !Ref 'ProjectId'
+  #   Type: AWS::CodeStar::SyncResources
+  #   Version: 1.0
+  # SyncResources:
+  #   DependsOn:
+  #   - SeedRepo
+  #   - DeploymentGroup
+  #   - CodeDeployApplication
+  #   - ProjectPipeline
+  #   - SyncInitialResources
+  #   Description: Adding all created resources to your AWS CodeStar project
+  #   Properties:
+  #     ProjectId: !Ref 'ProjectId'
+  #   Type: AWS::CodeStar::SyncResources
+  #   Version: 1.0
   WebAppInstanceProfile:
     Description: Creating Amazon EC2 instance profile for instances
     Properties:
