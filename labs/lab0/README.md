@@ -5,4 +5,4 @@ In the bootcamp today we will be working through several labs that require AWS a
 2. [Create a Cloud9 Environment](./cloud9.md)
 3. [Create an EC2 Key Pair](./keypair.md)
 
-| [Home](../../) |
+| [Home](../../README.md) |
