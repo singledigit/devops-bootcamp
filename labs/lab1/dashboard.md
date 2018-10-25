@@ -1,4 +1,4 @@
-## Lab 1: Launching Your First Website - Dashboard
+## Lab 1: Using the Dashboard to launch a website
 
 ### Step 1: Download template to local machine
 In the environment pain under the `do-bc` folder, right click on the **lab1.yaml** file and choose **Download**.
@@ -20,7 +20,7 @@ In the top left corner choose **Create Stack**.
 ### Step 6: Specify Details
 - In the **Stack name** field enter *Infrastructure*
 - In the **KeyPairName** field, choose the key you created in the configuration section.
-- In the **VpcId** there should only be one choice. If you have more than one choice, its a good chance you created it so choose the default if you know it. Any of them will work.
+- In the **VpcId** there should only be one choice. If you have more than one choice, see the bottom of this page to get the right ID.
 - Click **Next**
 
 ### Step 7: Options
@@ -39,5 +39,7 @@ Verify all your data and click *Create*.
 
 **Do you see your website?**
 
+### Utility to get the right VpcId
+- In the Cloud9 Environment terminal enter the command `aws ec2 describe-vpcs --query 'Vpcs[?IsDefault==`true`].VpcId' --output text`. It will return your default VpcId. 
 
 [Lab1](README.md) | [Home](../../README.md)

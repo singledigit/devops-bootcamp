@@ -1,22 +1,18 @@
-# Lab 1: Launching Your First Website - CLI
-## Step 1: Open a Terminal
-Open the terminal and change to the directory of the downloaded project.
+## Lab 1: Using the CLI to launch a website
 
-    cd [project]/lab1
-## Step 2: Specify Details
-Use the following info to fill in the form.
- - Stack Name: **Lab1Stack**
- - DBName: **LabOneDB**
- - DBPassword: **LabOnePassword**
- - DBRootPassword: **LabOneRootPassword**
- - DBUser: **admin**
- - KeyName: **[use key created earlier]**
-## Step 3: Create Stack
-From within the *Lab1* folder run the following command.
+### Step 1: Open a Terminal
+- On the Cloud9 environment locate your **bash terminal**
+- Make sure you are in the *do-bc* directory by entering the command `cd ~/environment/do-bc`
+
+### Step 2: Retrieve *KeyPairName* and *VpcId*
+- **<KeyPairName>** is the Key Pair you created in the *Configuration* section. If you do not remember it use the following terminal command to obtain `aws ec2 describe-key-pairs`
+- **<VpcId>** can be obtained with the following terminal command `aws ec2 describe-vpcs --query 'Vpcs[?IsDefault==`true`].VpcId' --output text`
 ```
-aws cloudformation create-stack --stack-name Lab1Stack --template-body file://./template.json --parameters file://./template-params.json
+aws cloudformation create-stack --stack-name Infrastructure --template-body file://./lab1.yaml \
+    ParameterKey=KeyPairName,ParameterValue=<KeyPairName> \
+    ParameterKey=VpcId,ParameterValue=<VpcId>
 ```
-## Step 4: Check for Completion
+### Step 4: Check for Completion
 Run the following command in your terminal to check the status of your stack.
 ```
 aws cloudformation --describe-stacks
@@ -27,7 +23,7 @@ In the *Outputs* area you will also see the *WebsiteUrl*. Copy and paste that to
 
 **Do you see your website?**
 
-## Step 5: Cleanup
+### Step 5: Cleanup
 Run the following command in your terminal.
 ```
 aws cloudformation delete-stack --stack-name Lab1Stack
