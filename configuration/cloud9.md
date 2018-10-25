@@ -14,7 +14,6 @@ In this lab we will be using AWS Cloud9 as our IDE. It will provide the followin
 4. Leave all the defaults and click *Next Step*
 5. On the next page click *Create Environment*
 
-
-There you have it! A new development environment has been setup.
+There you have it! A new development environment has been setup. Spend some time looking around and getting aquinted with the different sections of Cloud9
 
 [Next Step: EC2 Key Pair](keypair.md) | [Configuration](README.md) | [Home](../README.md)
