@@ -41,4 +41,4 @@ For security reasons, we want to create an IAM user.
 4. Enter you *IAM User Name* and *Password*
 5. Click the *Sign In* button
 
-[Next Step: Cloud9 Environment](cloud9.md) | [Configuration](README.md) | [Home](../README.md)
+[Next Step: Cloud9 Environment](cloud9.md) | [Configuration](README.md) | [Home](../)

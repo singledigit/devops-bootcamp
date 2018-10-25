@@ -10,5 +10,4 @@ Required to launch EC2 instances.
 
 **Take note, a file will be downloaded *yourkeyname.pem*. This file is required to remotely connect to any instances created in this lab.**
 
-[Configure](README.md) | [Home](../git commit -am "Updated file structure to flatten configuration folder"
-git pushREADME.md)
+[Configure](README.md) | [Home](../)
