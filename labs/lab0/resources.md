@@ -7,4 +7,4 @@ We are going to grab the lab resources from a public git repo.
 
 You now have a folder called *do-bc* that has all the resources you will need for today's session.
 
-[Next Step: EC2 Key Pair](keypair.md) | [Configuration](README.md) | [Home](../../)
+[Next Step: EC2 Key Pair](keypair.md) | [Configuration](README.md) | [Home](../../README.md)

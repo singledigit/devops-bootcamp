@@ -10,4 +10,4 @@ Required to launch EC2 instances.
 
 **Take note, a file will be downloaded *yourkeyname.pem*. This file is required to remotely connect to any instances created in this lab.**
 
-[Configure](README.md) | [Home](../../)
+[Configure](README.md) | [Home](../../README.md)
