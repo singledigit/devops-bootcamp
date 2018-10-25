@@ -5,8 +5,8 @@ Welcome to the AWS DevOps BootCamp! This one day course is designed to give you 
 **AWS Account**: An AWS account with admin access. A *Free Tier* account can be opened at [https://aws.amazon.com/free/](https://aws.amazon.com/free/)
 
 ## Configuration Instructions
-Click [here](./labs/configuration/README.md) to prepare for the Labs
+Click [here](configuration/README.md) to prepare for the Labs
 
 
 ## Labs ##
-### [Lab One](./labs/lab1/README.md)
+### [Lab One](labs/lab1/)
