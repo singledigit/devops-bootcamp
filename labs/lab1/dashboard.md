@@ -6,6 +6,8 @@ In the environment pain under the `do-bc` folder, right click on the **lab1.yaml
 ### Step 2: Open CloudFormation
 From the AWS Dashboard home page choose **CloudFormation**. You Can use the filter to help you locate the service.
 
+*Don't be alarmed when you see a stack has already been created. This is the stack for the Cloud9 Environment we built. **DO NOT DELETE***
+
 ### Step 3:  Ensure the Correct Region
 In the top right corner, ensure that you are set to *Ireland*. If not, click the drop down and choose **Ireland**.
 
@@ -20,7 +22,10 @@ In the top left corner choose **Create Stack**.
 ### Step 6: Specify Details
 - In the **Stack name** field enter *Infrastructure*
 - In the **KeyPairName** field, choose the key you created in the configuration section.
-- In the **VpcId** there should only be one choice. If you have more than one choice, see the bottom of this page to get the right ID.
+- In the **VpcId** there should only be one choice. If you have more than one choice, use the following command in the Cloud9 terminal to obtain the default ID.
+```
+aws ec2 describe-vpcs --query 'Vpcs[?IsDefault==`true`].VpcId' --output text
+```
 - Click **Next**
 
 ### Step 7: Options
@@ -39,7 +44,11 @@ Verify all your data and click *Create*.
 
 **Do you see your website?**
 
-### Utility to get the right VpcId
-- In the Cloud9 Environment terminal enter the command `aws ec2 describe-vpcs --query 'Vpcs[?IsDefault==`true`].VpcId' --output text`. It will return your default VpcId. 
+### Step 10: Tear it down!!
+Wait!! Why are we tearing it down? Because now that we have learned how to build a stack in the dashboard, it's time to get our hands dirty in the terminal.
+- Click the checkbox next to the stack name, *Infrastructure* to select it. (Make sure you have the right stack, don't delete your Cloud9 stack)
+- On the **Actions** dropdown, choose **Delete Stack**
+- On the **DeleteStack** modal click **Yes, Delete**
+- Once the *Infrastructure* stack disappears, click **Next Step: CLI** below.
 
-[Lab1](README.md) | [Home](../../README.md)
+[Next Step: CLI](cli.md) | [Lab1](README.md) | [Home](../../README.md)

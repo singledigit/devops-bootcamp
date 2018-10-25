@@ -1,10 +1,8 @@
-# Lab One: Launching Your First Stack
+# Lab One: Launching Your First Cloudformation Stack
 Welcome to your first lab of the AWS DevOps Bootcamp!! In this lab you will launch a simple "Hello World" node website.
 
-You have two options for this exercise.
+There are several ways to launch cloudformation stacks. We are going to look at the Dashboard and the AWS CLI. Start with the Dashboard.
 1. [AWS Dashboard](dashboard.md)
 2. [AWS CLI](cli.md)
-
-If you have time, I encourage you to try both!
 
 | [Home](../../README.md) |
