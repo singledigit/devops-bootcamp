@@ -5,8 +5,14 @@
 - Make sure you are in the *do-bc* directory by entering the command `cd ~/environment/do-bc`
 
 ### Step 2: Retrieve *KeyPairName* and *VpcId*
-- **<KeyPairName>** is the Key Pair you created in the *Configuration* section. If you do not remember it use the following terminal command to obtain `aws ec2 describe-key-pairs`
-- **<VpcId>** can be obtained with the following terminal command `aws ec2 describe-vpcs --query 'Vpcs[?IsDefault==`true`].VpcId' --output text`
+- **KeyPairName** is the Key Pair you created in the *Configuration* section. If you do not remember it use the following terminal command to obtain `aws ec2 describe-key-pairs`
+- **VpcId** can be obtained with the following terminal command `aws ec2 describe-vpcs --query 'Vpcs[?IsDefault==`true`].VpcId' --output text`
+
+## Step 3: Update and run command
+- Copy the following command to your terminal
+- Update the <placeholders> with the values you retrieved in *Step 3*
+- Hit **Enter** to run
+
 ```
 aws cloudformation create-stack --stack-name Infrastructure --template-body file://./lab1.yaml \
     ParameterKey=KeyPairName,ParameterValue=<KeyPairName> \
