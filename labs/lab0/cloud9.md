@@ -16,4 +16,4 @@ In this lab we will be using AWS Cloud9 as our IDE. It will provide the followin
 
 There you have it! A new development environment has been setup. Spend some time looking around and getting aquinted with the different sections of Cloud9
 
-[Next Step: EC2 Key Pair](keypair.md) | [Configuration](README.md) | [Home](../../)
+[Next Step: Resources](resources.md) | [Configuration](README.md) | [Home](../../)
