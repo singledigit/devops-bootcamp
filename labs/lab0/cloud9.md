@@ -16,4 +16,9 @@ In this lab we will be using AWS Cloud9 as our IDE. It will provide the followin
 
 There you have it! A new development environment has been setup. Spend some time looking around and getting aquinted with the different sections of Cloud9
 
+*Be sure to keep all three browser tabs open*
+- This tab for instructions
+- The Cloud9 environment
+- The AWS Services dashboard
+
 [Next Step: Resources](resources.md) | [Configuration](README.md) | [Home](../../README.md)
