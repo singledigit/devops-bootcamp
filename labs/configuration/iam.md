@@ -1,5 +1,5 @@
 # Creating an IAM user
-For security reasons, we want to create an IAM user immediately.
+For security reasons, we want to create an IAM user.
 
 1. From the home dashboard type *IAM* into the search box at the top.
 2. Choose *IAM Services* from the dropdown.
@@ -41,4 +41,4 @@ For security reasons, we want to create an IAM user immediately.
 4. Enter you *IAM User Name* and *Password*
 5. Click the *Sign In* button
 
-[Configure](README.md) | [Home](../../README.md)
+[Next Step: Cloud9 Environment](cloud9.md) | [Configuration](README.md) | [Home](../../README.md)
