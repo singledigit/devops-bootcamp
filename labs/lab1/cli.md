@@ -17,18 +17,18 @@ aws ec2 describe-key-pairs
 aws ec2 describe-vpcs --query 'Vpcs[?IsDefault==`true`].VpcId' --output text
 ```
 
-## Step 3: Update and run command
+### Step 3: Update and run command
 - Copy the following command to your terminal (Yep, it's a long one)
-- Update the <placeholders> with the values you retrieved in _Step 3_
+- Update the <placeholders> with the values you retrieved in *Step 3*. Make sure ther "<" and ">" are removed too.
 - Hit **Enter** to run
 ```
-aws cloudformation create-stack --stack-name Infrastructure --template-body file://./lab1.yaml ParameterKey=KeyPairName,ParameterValue=<KeyPairName> ParameterKey=VpcId,ParameterValue=<VpcId>
+aws cloudformation create-stack --stack-name Infrastructure --template-body file://./lab1.yaml --parameters ParameterKey=KeyPairName,ParameterValue=<KeyPairName> ParameterKey=VpcId,ParameterValue=<VpcId>
 ```
 
 ### Step 4: Check for Completion
 Run the following command in your terminal to check the status of your stack.
 ```
-aws cloudformation --describe-stacks
+aws cloudformation describe-stacks --stack-name Infrastructure
 ```
 You will eventually see a *StackStatus* of *CREATE_COMPLETE*.
 
