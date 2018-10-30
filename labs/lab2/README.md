@@ -26,3 +26,72 @@ aws ec2 describe-vpcs --query 'Vpcs[?IsDefault==`true`].VpcId' --output text
 ```
 aws cloudformation create-stack --stack-name Pipeline --template-body file://./lab2.yaml --parameters ParameterKey=KeyPairName,ParameterValue=<KeyPairName> ParameterKey=VpcId,ParameterValue=<VpcId> --capabilities CAPABILITY_NAMED_IAM
 ```
+
+### Step 3: Check the results
+- On the AWS Dashboard choose the CodePipeline service. This will take you to the CodePipeline console which gives you access to the Source, Build, Deploy, and Pipeline resources.
+- Click on the **bootcampapp-Pipeline** in the Pipelines list.
+- Take a look at the bootcampapp-Pipeline status. You will notice that your Source has failed... don't panic, we are going to fix that.
+
+## Seeding the Repo 
+
+### Step 1: Enabling GIT access to CodeCommit
+When using Cloud9 with CodeCommit you are able to take advantage of your AWS credentials
+providing extra layers of security. All of these will be executed in the Cloud9 
+terminal.
+
+- Set your username in GIT using YOUR name
+```
+git config --global user.name "Your Name"
+```
+- Set your email in GIT using YOUR email
+```
+git config --global user.email your.email@example.com
+```
+- Enable the AWS credentials helper
+```
+git config --global credential.helper '!aws codecommit credential-helper $@'
+```
+- Set HTTP option
+```
+git config --global credential.UseHttpPath true
+```
+
+### Step 2: Connecting to CodeCommit
+- Clone the repo
+```
+git clone https://git-codecommit.us-west-2.amazonaws.com/v1/repos/BootCampRepo
+```
+You will probably get an warning: "warning: You appear to have cloned an empty repository." 
+You can ignore this.
+
+You will also see a new folder in your file structure called **BootCampRepo**
+
+### Step 3: Populate the local repository folder
+In the terminal copy and paste the following command and hit **Enter**
+```
+cd ~/environment/do-bc/ && cp ./site/* ../BootCampRepo/.
+```
+You should see your site files copied to the *BootCamp* root directory.
+
+### Step 4: Commit changes to local repository
+1. Make sure you are in the *BootCampRepo* directory
+```
+cd ~/environment/BootCampRepo
+```
+2. Stage all files for committing
+```
+git add -A
+```
+3. Coomit the changes to the local Repository
+```
+git commit -am "Initial commit"
+```
+4. Push changes to remote repository
+```
+git push
+```
+
+### Step 4: Check the results
+- On the AWS Dashboard choose the CodePipeline service. This will take you to the CodePipeline console which gives you access to the Source, Build, Deploy, and Pipeline resources.
+- Click on the **bootcampapp-Pipeline** in the Pipelines list.
+- Take a look at the bootcampapp-Pipeline status. The pipeline should now run properly through the build stage.
