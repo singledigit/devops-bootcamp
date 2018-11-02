@@ -32,10 +32,16 @@ aws ec2 describe-vpcs --query 'Vpcs[?IsDefault==`true`].VpcId' --output text
 Leave all defaults and click **Next** (it might be out of view at the bottom of the page)
 
 ### Step 8: Review
-Verify all your data and click **Create**.
+- Verify all data is correct.
+- Check the **I acknowledge that AWS CloudFormation might create IAM resources with custom names.** box under **Capabilities** at the bottom.
+- Click **Create**.
 
 ### Step 8: Wait
-- Patiently wait for you stack to be created. When the stack is through building give the instance about 2 more minutes before the website is up.
+You will be returned to the CloudFormation Stacks page. Because we are actually spinning up EC2 Instances, 
+this can take a few minutes. Patiently wait for you stack to be created. 
+When the stack is through building give the instance about 2 more minutes before the website is up.
+
+While your waiting, feel free to take a look at the **Lab1.yaml** file to see what's going on. 
 
 ### Step 9: Retrieve Website URL
 - Click checkbox next to the stack name, **Infrastructure** to select it.
@@ -44,11 +50,13 @@ Verify all your data and click **Create**.
 
 **Do you see your website?**
 
+If you do not, wait a few moments and refresh.
+
 ### Step 10: Tear it down!!
 Wait!! Why are we tearing it down? Because now that we have learned how to build a stack in the dashboard, it's time to get our hands dirty in the terminal.
 - Click the checkbox next to the stack name, **Infrastructure** to select it. (Make sure you have the right stack, don't delete your Cloud9 stack)
 - On the **Actions** dropdown, choose **Delete Stack**
 - On the **DeleteStack** modal click **Yes, Delete**
-- Once the *Infrastructure* stack disappears, click **Next Step: CLI** below.
+- Once the **Infrastructure** stack disappears, click **Next Step: CLI** below.
 
 [Next Step: CLI](cli.md) | [Lab1](README.md) | [Home](../../README.md)
