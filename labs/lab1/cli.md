@@ -24,6 +24,11 @@ aws ec2 describe-vpcs --query 'Vpcs[?IsDefault==`true`].VpcId' --output text
 ```
 aws cloudformation create-stack --stack-name Infrastructure --template-body file://./lab1.yaml --parameters ParameterKey=KeyPairName,ParameterValue=<KeyPairName> ParameterKey=VpcId,ParameterValue=<VpcId>
 ```
+- Did you get an error? Something like *"An error occured (InsufficientCapabilitiesException)..."* It's important to note that, like on the dashboard, we need to acknowledge that we are going to be updating permissions. This requires the **--capabilities** flag. Try the following command.
+- In the terminal, hit the **Up Arrow**, this will take you back to the last command you did. Add the following at the end. Make sure there is a space.
+```
+---capabilities CAPABILITY_NAMED_IAM
+```
 
 ### Step 4: Check for Completion
 Run the following command in your terminal to check the status of your stack.
