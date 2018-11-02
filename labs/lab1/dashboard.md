@@ -1,7 +1,7 @@
 ## Lab 1: Using the Dashboard to launch a website
 
 ### Step 1: Download template to local machine
-In the environment pain under the `do-bc` folder, right click on the **lab1.yaml** file and choose **Download**.
+In the environment pain under the **do-bc** folder, right click on the **lab1.yaml** file and choose **Download**.
 
 ### Step 2: Open CloudFormation
 From the AWS Dashboard home page choose **CloudFormation**. You Can use the filter to help you locate the service.
