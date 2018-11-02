@@ -1,7 +1,7 @@
 # Create EC2 Key Pair
 Required to launch EC2 instances.
 
-1. From the home dashboard type **EC2** into the search box at the top.
+1. If you are on not on the AWS Dashboard, click **Services** on the top left. Type **EC2** into the search box at the top.
 2. Choose **EC2** from the dropdown.
 3. Choose **Key Pairs** on the left menu in the **Network & Security** section.
 4. Click the blue "Create Key Pair" button.
