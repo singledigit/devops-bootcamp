@@ -39,11 +39,11 @@ When using Cloud9 with CodeCommit you are able to take advantage of your AWS cre
 providing extra layers of security. All of these will be executed in the Cloud9 
 terminal.
 
-- Set your username in GIT using YOUR name
+- Set your username in GIT (be sure and update to your name)
 ```
 git config --global user.name "Your Name"
 ```
-- Set your email in GIT using YOUR email
+- Set your email in GIT using YOUR email (be sure and update to your email)
 ```
 git config --global user.email your.email@example.com
 ```
@@ -71,13 +71,16 @@ You can ignore this.
 You will also see a new folder in your file structure called **BootCampRepo**
 
 ### Step 3: Populate the local repository folder
+Now that we have an empty local repository. We need to put some data into it to push out to our 
+CodeCommit repository. I have provided a simple example site to use.
+
 In the terminal copy and paste the following command and hit **Enter**
 ```
-cp -R ~/environment/do-bc/site/* ~/environment//BootCampRepo/.
+cp -R ~/environment/do-bc/site/* ~/environment/BootCampRepo/.
 ```
 You should see your site files copied to the **BootCampRepo** root directory.
 
-### Step 4: Commit changes to local repository
+### Step 4: Commit changes to local repository and push to CodeCommit repository
 1. Make sure you are in the *BootCampRepo* directory
 ```
 cd ~/environment/BootCampRepo
@@ -99,3 +102,5 @@ git push
 - On the AWS Dashboard choose the CodePipeline service. This will take you to the CodePipeline console which gives you access to the Source, Build, Deploy, and Pipeline resources.
 - Click on the **bootcampapp-Pipeline** in the Pipelines list.
 - Take a look at the bootcampapp-Pipeline status. The pipeline should now run properly through the build stage.
+
+| [Home](../../README.md) |
