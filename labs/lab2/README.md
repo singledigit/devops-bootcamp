@@ -57,6 +57,10 @@ git config --global credential.UseHttpPath true
 ```
 
 ### Step 2: Connecting to CodeCommit
+- Make sure you are in the root directory
+```
+cd ~/environment
+```
 - Clone the repo
 ```
 git clone https://git-codecommit.us-west-2.amazonaws.com/v1/repos/BootCampRepo
@@ -69,7 +73,7 @@ You will also see a new folder in your file structure called **BootCampRepo**
 ### Step 3: Populate the local repository folder
 In the terminal copy and paste the following command and hit **Enter**
 ```
-cd ~/environment/do-bc/ && cp ./site/* ../BootCampRepo/.
+cp -R ~/environment/do-bc/site/* ~/environment//BootCampRepo/.
 ```
 You should see your site files copied to the *BootCamp* root directory.
 
