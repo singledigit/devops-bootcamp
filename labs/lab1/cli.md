@@ -19,7 +19,7 @@ aws ec2 describe-vpcs --query 'Vpcs[?IsDefault==`true`].VpcId' --output text
 
 ### Step 3: Update and run command
 - Copy the following command to your terminal (Yep, it's a long one)
-- Update the \<placeholders\> with the values you retrieved in **Step 3**. Make sure ther "<" and ">" are removed too.
+- Update the **\<placeholders\>** with the values you retrieved in **Step 3**. Make sure ther "<" and ">" are removed too.
 - Hit **Enter** to run
 ```
 aws cloudformation create-stack --stack-name Infrastructure --template-body file://./lab1.yaml --parameters ParameterKey=KeyPairName,ParameterValue=<KeyPairName> ParameterKey=VpcId,ParameterValue=<VpcId>
