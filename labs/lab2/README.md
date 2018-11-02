@@ -21,7 +21,7 @@ aws ec2 describe-vpcs --query 'Vpcs[?IsDefault==`true`].VpcId' --output text
 
 ### Step 2: Update and run command
 - Copy the following command to your terminal (Yep, it's a long one)
-- Update the <placeholders> with the values you retrieved in *Step 1*. Make sure ther "<" and ">" are removed too.
+- Update the **\<placeholders\>** with the values you retrieved in *Step 1*. Make sure ther "<" and ">" are removed too.
 - Hit **Enter** to run
 ```
 aws cloudformation create-stack --stack-name Pipeline --template-body file://./lab2.yaml --parameters ParameterKey=KeyPairName,ParameterValue=<KeyPairName> ParameterKey=VpcId,ParameterValue=<VpcId> --capabilities CAPABILITY_NAMED_IAM
@@ -75,7 +75,7 @@ In the terminal copy and paste the following command and hit **Enter**
 ```
 cp -R ~/environment/do-bc/site/* ~/environment//BootCampRepo/.
 ```
-You should see your site files copied to the *BootCamp* root directory.
+You should see your site files copied to the **BootCampRepo** root directory.
 
 ### Step 4: Commit changes to local repository
 1. Make sure you are in the *BootCampRepo* directory
