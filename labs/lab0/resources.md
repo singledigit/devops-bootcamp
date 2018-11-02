@@ -6,10 +6,7 @@ We are going to grab the lab resources from a public git repo.
 ```
 git clone https://github.com/singledigit/do-bc
 ```
-3. Change to the newly created folder
-```
-cd do-bc
-```
+
 
 You now have a folder called **do-bc** that has all the resources you will need for today's session.
 
