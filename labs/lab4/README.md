@@ -33,3 +33,9 @@ Use the following command in the terminal to delete the **Infrastructure** Stack
 ```
 aws cloudformation delete-stack --stack-name Infrastructure
 ```
+*You have to admit, CLI is FAST*
+
+## Step 4: Delete Cloud9
+Whoa...!! What? Yep, delete your Cloud9 instance. Don't worry, we will spin up another one in a bit
+- On the AWS Dashboard go to the **Cloud9** dashboard.
+- 
