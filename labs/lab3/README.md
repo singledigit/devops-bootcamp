@@ -111,6 +111,17 @@ git push
 - If you still have a link to your website, refresh it! Does it look better?
 - If you do not, on the **AWS Dashboard** got to **CloudFormation** and check the box next to the **Infrastructure** stack. Look under the outputs tab below.
 
-Hopefully you see an updated site, if you don't see one... don't worry, we will talk about this. In the next session.
+Hopefully you see an updated site, if you don't see one... don't worry, we will 
+talk about this in a later session but for now you can try forcing a new release.
+
+### Optional Step 4: Create a new release
+Releases can be created several ways.
+
+1. Committing new code like we just did. Try changing some of the text in the **index.html** file under the **BootCampRepo** file and run the `git` parts of **Step 1** again.
+2. Clicking on the **Release change** button on the **CodePipeline** dashboard.
+3. Through the CLI using the following code.
+```
+aws codepipeline start-pipeline-execution --name bootcampapp-Pipeline
+```
 
 | [Home](../../README.md) |
