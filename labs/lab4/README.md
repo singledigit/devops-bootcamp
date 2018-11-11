@@ -1,9 +1,3 @@
-## Lab Four: Starting with AWS CodeStar
-If your following through the AWS DevOps Bootcamp presentations, by now you have probably 
-talked about AWS CodeStar. You are also probably asking yourself WHY DIDN'T WE START HERE!!?? 
-CodeStar allows you to spin up DevOps CICD pipelines for many common workloads. It is a great 
-starting point for almost any AWS workload. Let's jump in.
-
 ## Some Housekeeping
 Before we start spinning up more resources, lets do some cleanup to make sure we are not 
 paying for something we are not using.
@@ -36,6 +30,13 @@ aws cloudformation delete-stack --stack-name Infrastructure
 *You have to admit, CLI is FAST*
 
 ## Step 4: Delete Cloud9
-Whoa...!! What? Yep, delete your Cloud9 instance. Don't worry, we will spin up another one in a bit
+Whoa...!! What? Yep, delete your Cloud9 instance. Don't worry, we will spin up another one in a bit.
 - On the AWS Dashboard go to the **Cloud9** dashboard.
-- 
+- Click the **Radio Button** on the top left of your **Cloud9** instance.
+- Click **Delete**
+- On the **Delete** modal type the word **Delete**
+- Click the **Delete** button
+
+Yeah, we like to make sure you REALLY wanted to delete this.
+
+| [Next Step: CodeStar](./CodeStar.md)
