@@ -33,8 +33,12 @@ git config --global user.email your.email@example.com
 ## Step 5: Updating permissions
 In the template file there is a [link to instructions](https://docs.aws.amazon.com/codestar/latest/userguide/how-to-modify-serverless-project.html?icmpid=docs_acs_rm_tr) on the proper permissions.
 
-## Step 7: Commit the changes
-- In the terminal type the following to commit the changes.
+## Step 6: Commit the changes
+- In the terminal make sure you are in the **BootCampRepo** directory
+```
+cd ~/environment/BootCampRepo
+```
+- Type the following to commit the changes.
 ```
 git commit -am "Updating release to a canary release"
 ```
@@ -45,5 +49,27 @@ git push
 
 Once you commit the changes your application will be redeployed but using a delayed deployment according to
 the deployment options we uncommented in the template file.
+
+## Step 7: See it in action
+- Make a change to the **index.html** in the **public** folder under the **BootCampRepo** directory. (For instance: change the text **Example App** to **BootCamp App**)
+- In the terminal make sure you are in the **BootCampRepo** directory
+```
+cd ~/environment/BootCampRepo
+```
+- Type the following to commit the changes.
+```
+git commit -am "First deployment"
+```
+- The following command will push and start the update.
+```
+git push
+```
+
+## Step 8: View the results
+- On the **CodeStar** Dashboard choose **Deploy** from the menu on the left, this opens a new window.
+- On your aplication page, choose the **Deployments** tab or from the left menu.
+- Click on the **Deployment Id**
+
+You should now see your deployment in action.
 
 | [Home](../../README.md) |
