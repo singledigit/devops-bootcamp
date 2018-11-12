@@ -42,3 +42,5 @@ git commit -am "Updating release to a canary release"
 ```
 git push
 ```
+
+| [Home](../../README.md) |
