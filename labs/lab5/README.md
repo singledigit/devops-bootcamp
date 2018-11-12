@@ -43,4 +43,7 @@ git commit -am "Updating release to a canary release"
 git push
 ```
 
+Once you commit the changes your application will be redeployed but using a delayed deployment according to
+the deployment options we uncommented in the template file.
+
 | [Home](../../README.md) |
