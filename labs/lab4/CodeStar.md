@@ -47,3 +47,5 @@ will take you everywhere you need to go.
 When the dashboard is finished loading you will see an **Application Endpoints** section, click on the link to see the resulting website.
 
 That's It!! You have just complete setting up an entire development CICD pipeline and infrastructure.
+
+| [Home](../../README.md) |

@@ -39,4 +39,4 @@ Whoa...!! What? Yep, delete your Cloud9 instance. Don't worry, we will spin up a
 
 Yeah, we like to make sure you REALLY wanted to delete this.
 
-| [Next Step: CodeStar](./CodeStar.md)
+| [Next Step: CodeStar](./CodeStar.md) |

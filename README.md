@@ -7,6 +7,8 @@ Welcome to the AWS DevOps BootCamp! This one day course is designed to give you 
 - [Lab Two](labs/lab2/): Creating a Pipeline
 - [Lab Three](labs/lab3/): Deploying the Code
 - [Lab Four](labs/lab4/): Starting with CodeStar
+- [Lab Five](labs/lab5/): Deleayed Deployments
 
 ## Prerequisites
 **AWS Account**: An AWS account with admin access. A *Free Tier* account can be opened at [https://aws.amazon.com/free/](https://aws.amazon.com/free/)
+
