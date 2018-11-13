@@ -63,7 +63,7 @@ cd ~/environment
 ```
 - Clone the repo
 ```
-git clone https://git-codecommit.us-west-2.amazonaws.com/v1/repos/BootCampRepo
+git clone https://git-codecommit.eu-west-1.amazonaws.com/v1/repos/BootCampRepo
 ```
 You will probably get an warning: "warning: You appear to have cloned an empty repository." 
 You can ignore this.

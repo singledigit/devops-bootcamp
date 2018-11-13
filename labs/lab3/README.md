@@ -8,7 +8,7 @@ In order for our deployment stack to be able to identify it's deployment targets
 we are going to give the instances an identifying tag.
 
 ### Step 1: Exploring the differences
-Take a look at the "lab1.yaml" file in your **do-bc** and compare it to the "lab3-arch.yaml" file. 
+Take a look at the "lab1.yaml" file in your **do-bc** and compare it to the "lab3-infra.yaml" file. 
 You will notice that the files are identical except for some commented out parts in lab1. 
 We are adding the **Tags** section to the instance.
 
