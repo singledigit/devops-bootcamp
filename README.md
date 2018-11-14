@@ -1,6 +1,9 @@
 # AWS DevOps BootCamp
 Welcome to the AWS DevOps BootCamp! This one day course is designed to give you an overview of the AWS DevOps suite of tools. While this will not be exhaustive, it will give you a high level understanding of doing DevOps on AWS and give you a starting point to go deeper.
 
+## Presentation Files
+[Power Point Deck](https://s3-eu-west-1.amazonaws.com/ejdropru/AWS-DevOps-Bootcamp.pptx)
+
 ## Labs
 - [Lab Zero](labs/lab0/): Configuring your workstation
 - [Lab One](labs/lab1/): Working with CloudFormation
